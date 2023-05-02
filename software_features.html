@@ -18,21 +18,6 @@
       <meta data-n-head="ssr" data-hid="og:title" name="og:title" content="Property Management Software | primeForce Property Management">
       <meta data-n-head="ssr" data-hid="og:description" name="og:description" content="Grow your business with primeForce, a property management software trusted by thousands to get organized, efficient, and profitable. Get a free demo today!">
         <title>Property Management Software Features | primeForce </title>
-        <link data-n-head="ssr" rel="icon" type="image/x-icon" href="https:../primeforce.com/apm/www/favicons/favicon.ico" sizes="16x16" />
-        <link data-n-head="ssr" rel="icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/favicon-16x16.png" sizes="16x16" />
-        <link data-n-head="ssr" rel="icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/favicon-32x32.png" sizes="32x32" />
-        <link data-n-head="ssr" rel="icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/favicon-96x96.png" sizes="96x96" />
-        <link data-n-head="ssr" rel="apple-touch-icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/apple-icon-57x57.png" sizes="57x57" />
-        <link data-n-head="ssr" rel="apple-touch-icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/apple-icon-60x60.png" sizes="60x60" />
-        <link data-n-head="ssr" rel="apple-touch-icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/apple-icon-72x72.png" sizes="72x72" />
-        <link data-n-head="ssr" rel="apple-touch-icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/apple-icon-76x76.png" sizes="76x76" />
-        <link data-n-head="ssr" rel="apple-touch-icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/apple-icon-114x114.png" sizes="114x114" />
-        <link data-n-head="ssr" rel="apple-touch-icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/apple-icon-120x120.png" sizes="120x120" />
-        <link data-n-head="ssr" rel="apple-touch-icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/apple-icon-144x144.png" sizes="144x144" />
-        <link data-n-head="ssr" rel="apple-touch-icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/apple-icon-152x152.png" sizes="152x152" />
-        <link data-n-head="ssr" rel="apple-touch-icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/apple-icon-180x180.png" sizes="180x180" />
-        <link data-n-head="ssr" rel="apple-touch-icon" type="image/png" href="https:../primeforce.com/apm/www/favicons/apple-icon.png" sizes="192x192" />
-        <link data-n-head="ssr" rel="apple-touch-icon-precomposed" type="image/png" href="https:../primeforce.com/apm/www/favicons/apple-icon-precomposed.png" sizes="192x192" />
         <link data-n-head="ssr" rel="manifest" type="application/json" href="https:../primeforce.com/apm/www/favicons/manifest.json" />
         <link data-n-head="ssr" rel="msapplication-config" type="application/xml" href="https:../primeforce.com/apm/www/favicons/browserconfig.xml" />
         <link data-n-head="ssr" data-hid="shortcut-icon" rel="shortcut icon" href="https://www.primeForce.com/_nuxt/icons/icon_64x64.4826b9.png" />
@@ -139,7 +124,7 @@
                 <div class="root">
                     <div class="nav-hide" data-v-513acabc="">
                         <div class="nav__meter" data-v-513acabc=""></div>
-                        <div class="nav-wrapper nav-page" style="background-color: rgb(255, 255, 255);" data-v-513acabc="">
+                        <div class="nav-wrapper nav-page"  id = "hello" style="background-color: rgb(255, 255, 255);" data-v-513acabc="">
                             <div style="" data-v-cc50490c="" data-v-513acabc="" class="navdesktop--bg">
                                 <div class="top-container" data-v-b28f9e10="" data-v-cc50490c="">
                                     <div class="app-container app-row" data-v-b28f9e10="">
@@ -3114,6 +3099,19 @@
                 </div>
             </div>
         </div>
+
+        <script src="./Javascript/runtime.225a43a.js" defer=""></script>
+        <script src="./_nuxt/pages/our-software/index.395e5c1.js" defer=""></script>
+        <script src="./_nuxt/vendors/components/carousel-grid/components/carousel-swiper/pages/our-software/index.bda6c9f.js" defer=""></script>
+        <script src="./Javascript/carousel.bbbcbfd.js" defer=""></script>
+        <script src="./_nuxt/components/card-callout.87d438e.js" defer=""></script>
+        <script src="./_nuxt/components/uberflip-stream/pages/our-software/index/pages/the-top-floor.ed1a774.js" defer=""></script>
+        <script src="./Javascript/app.e1ddcdb.js" defer=""></script>
+        <script src="./Javascript/app.ec0fccf.js" defer=""></script>
+        <script async="" src="./primeforce.com/apm/www/v2/js/eu-comp/eu-comp-run.min.js"></script>
+        <script src="./Javascript/app.3a2a4b8.js" defer=""></script>
+        <script charset="utf-8" src="./Javascript/159.a94fe2d.js"></script>
+        <script src="./test.js"></script>
         <script>
             window.__NUXT__ = (function (a, b, c, d) {
                 return {
@@ -3136,7 +3134,6 @@
 
             const configureSCroll = () => {
               var activeScroll = window.scrollY;
-              console.log(activeScroll)
               if (activeScroll > 950) {
                 const navWrapper = document.querySelector(".root .nav-wrapper");
                 navWrapper.style.background = "rgb(255, 255, 255)"
@@ -3188,7 +3185,6 @@
                 if (anchorList[i].querySelector("a") === btn) {
                   anchorList[i].classList.add("active");
                   var tag = anchorList[i].querySelector("a");
-                  tag.innerHTML += defSpan;
                 }
                 
               }
@@ -3196,22 +3192,62 @@
               section.scrollIntoView({ behavior: 'smooth' });
             }
 
+            function removeContent(width) {
+                if (width < 1049) {
+                    var div = document.getElementById("hello");
+                    if (div !== null || div !== undefined){
+                        while (div.firstChild) {
+                            div.removeChild(div.firstChild);
+                        }
+                    }
+                }
+
+            }
+
+
+            function addContent() {
+                var div = document.getElementById("hello");
+                div.innerHTML = mobileContent;
+            }
+
+            function handleMenu () {
+              var menu_open = false;
+              const menu = document.querySelector("#menu");
+              if (menu !== null) {
+                  menu.onclick = () => {
+                      const list = document.getElementById("navmobile");
+                      if (!menu_open) {
+                          list.classList.add("navmobile--open");
+                          menu_open = true;
+                      } else {
+                          list.classList.remove("navmobile--open")
+                          menu_open = false;
+                      }
+                  }
+              }
+            }
+        
+            window.onresize = function() {
+                var screenWidth = window.innerWidth;
+                if (screenWidth < 1049){
+                    removeContent(screenWidth);
+                    addContent();
+                }
+            }
+
+            handleMenu();
+
             window.onload = () => {
               configureNav();
               configureSCroll();
+              var width = window.innerWidth;
+              if (width < 1049){
+                  removeContent(width);
+                  addContent();
+              }
+              handleMenu();
             }
           </script>
-        <script src="./Javascript/runtime.225a43a.js" defer=""></script>
-        <script src="./_nuxt/pages/our-software/index.395e5c1.js" defer=""></script>
-        <script src="./_nuxt/vendors/components/carousel-grid/components/carousel-swiper/pages/our-software/index.bda6c9f.js" defer=""></script>
-        <script src="./Javascript/carousel.bbbcbfd.js" defer=""></script>
-        <script src="./_nuxt/components/card-callout.87d438e.js" defer=""></script>
-        <script src="./_nuxt/components/uberflip-stream/pages/our-software/index/pages/the-top-floor.ed1a774.js" defer=""></script>
-        <script src="./Javascript/app.e1ddcdb.js" defer=""></script>
-        <script src="./Javascript/app.ec0fccf.js" defer=""></script>
-        <script async="" src="./primeforce.com/apm/www/v2/js/eu-comp/eu-comp-run.min.js"></script>
-        <script src="./Javascript/app.3a2a4b8.js" defer=""></script>
-        <script charset="utf-8" src="./Javascript/159.a94fe2d.js"></script>
         <style data-uid="141"></style><style data-uid="156"></style>
         <style data-uid="159">
             [data-uid="159"].mobiletablet .card-container {

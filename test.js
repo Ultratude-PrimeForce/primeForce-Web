@@ -35,7 +35,7 @@ var mobileContent = '<div data-v-3565437b="" data-v-513acabc="" id = "navmobile"
 '</svg>'+
 '</button>'+ 
 '<button data-v-3565437b="" label="Open Navigation" aria-label="Open Menu" class="menu-button">'+
-'<svg data-v-962c30ae="" data-v-3565437b="" id="menu" viewBox="0 0 32 32" aria-hidden="true" width="32" height="32" class="icon">'+
+'<svg data-v-962c30ae="" data-v-3565437b="" id="menu" viewBox="0 0 32 32" aria-hidden="true" width="32" height="32" class="icon hamburger-icon">'+
 '<rect data-v-962c30ae="" x="6" y="10" width="20" height="2" rx="1"></rect>'+ 
 '<rect data-v-962c30ae="" x="6" y="16" width="20" height="2" rx="1"></rect>'+ 
 '<rect data-v-962c30ae="" x="11" y="22" width="15" height="2" rx="1"></rect>'+
