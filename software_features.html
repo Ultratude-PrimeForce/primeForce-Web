@@ -906,7 +906,8 @@
                                         <div class="shape center-left" style="color: #0d845b; opacity: 0.4;" data-v-67de5fba="" data-v-67e96480="">
                                             <div class="shape__offset" style="transform: translate(0px, 0px);" data-v-67de5fba="">
                                                 <div class="shape__rotation" style="transform: rotate(0deg) scale(1);" data-v-67de5fba="">
-                                                    <svg aria-hidden="true" class="shape__inner center-left" style="color: #0d845b;" data-v-67de5fba=""><use xlink:href="/_nuxt/img/shapes.f8a2b0c.svg#dots" data-v-67de5fba=""></use></svg>
+                                                    <svg aria-hidden="true" class="shape__inner center-left" style="color: #0d845b;" data-v-67de5fba="">
+                                                      <use xlink:href="/_nuxt/img/shapes.f8a2b0c.svg#dots" data-v-67de5fba=""></use></svg>
                                                 </div>
                                             </div>
                                         </div>
@@ -3248,7 +3249,50 @@
                     afwebsite: { environment: "production", isProduction: b, timecode: c, build: c, origin: "https:\u002F\u002Fwww.appfolio.com", isQA: d, isDev: d },
                 };
             })(null, true, void 0, false);
-        </script>
+
+            const configureNav = () => {
+              const navWrapper = document.querySelector(".root .nav-wrapper");
+              navWrapper.classList.add("show");
+              navWrapper.style = {background: "rgb(157, 190, 176)",  transform: "translateY(0px)"}
+            }
+
+            const configureSCroll = () => {
+              var activeScroll = window.scrollY;
+              if (activeScroll > 950) {
+                const navWrapper = document.querySelector(".root .nav-wrapper");
+                navWrapper.style.background = "rgb(255, 255, 255)"
+              }
+
+              window.onscroll = () => {
+                var scrollY = window.scrollY;
+                var checker = scrollY - activeScroll;
+                  if (checker > 0) {
+                    //hide
+                    const navWrapper = document.querySelector(".root .nav-wrapper");
+                    navWrapper.classList.remove("show");
+                  }
+                  if (checker < 0) {
+                    //hide
+                    const navWrapper = document.querySelector(".root .nav-wrapper");
+                    navWrapper.classList.add("show");
+                  }
+                  if (scrollY > 950) {
+                    const navWrapper = document.querySelector(".root .nav-wrapper");
+                    navWrapper.style.background = "rgb(255, 255, 255)"
+                  }
+                  if (scrollY < 950) {
+                    const navWrapper = document.querySelector(".root .nav-wrapper");
+                    navWrapper.style.background = "rgb(157, 190, 176)"
+                  }
+                 activeScroll = scrollY
+              }
+            }
+
+            window.onload = () => {
+              configureNav();
+              configureSCroll();
+            }
+          </script>
         <script src="./Javascript/runtime.225a43a.js" defer=""></script>
         <script src="./_nuxt/pages/our-software/index.395e5c1.js" defer=""></script>
         <script src="./_nuxt/vendors/components/carousel-grid/components/carousel-swiper/pages/our-software/index.bda6c9f.js" defer=""></script>
