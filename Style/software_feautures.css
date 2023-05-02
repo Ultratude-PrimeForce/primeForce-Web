@@ -20139,7 +20139,7 @@ span.nowrap[data-v-9de55114] {
 }
 .logo a img[data-v-9de55114],
 .logo .branding img[data-v-9de55114] {
-    width: 100%;
+    width: 60%;
 }
 @media (min-width: 768px) {
     .logo a--minimal[data-v-9de55114],
@@ -56411,6 +56411,7 @@ span.nowrap[data-v-3cf6767a] {
 .contact-link[data-v-3565437b]:hover {
     text-decoration: underline;
 }
+
 
 .blok[data-v-9b3e9d66] {
     border: 5px solid red;
