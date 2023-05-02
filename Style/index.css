@@ -39902,12 +39902,12 @@ span.nowrap[data-v-c7930fbe] {
 
 .underline[data-v-3855e504] strong {
     background-repeat: no-repeat;
-    background-position: center bottom 10%;
+    background-position: center bottom 0;
     background-size: 100% 7px
 }
 
 .underline[data-inview-visible][data-v-3855e504] strong {
-    background-image: url("../../images/line.svg");
+    /* background-image: url("../../images/line.svg"); */
     background-image: var(--bg-image)
 }
 
