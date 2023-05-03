@@ -173,7 +173,7 @@
                                     "2.0.2": "/416",
                                     "2.0.3": "/417",
                                     "2.0.4": "/419",
-                                    "?": "/"
+                                    "?": "./index.html"
                                 }]],
                                 [/(webkit|khtml)\/([\w\.]+)/i],
                                 [l, v],
@@ -8645,7 +8645,7 @@
                             return f.dispatch(s.SET_COOKIE_DOMAIN, c), c
                         }(u.getLocation(), !0)), r.domain = m
                     }
-                    if (r.domain && g.push("domain=" + r.domain), e.isUndefined(r.path) && (r.path = "/"), r.path && g.push("path=" + r.path), e.isUndefined(r.expires)) {
+                    if (r.domain && g.push("domain=" + r.domain), e.isUndefined(r.path) && (r.path = "./index.html"), r.path && g.push("path=" + r.path), e.isUndefined(r.expires)) {
                         var y = e.isUndefined(r.maxAge) ? l.getDefaultAgeInSeconds() : r.maxAge;
                         r.expires = new Date(o.now() + 1e3 * y)
                     }
@@ -10839,7 +10839,7 @@
                             var n, i;
                             return e.isString(t[1]) ? (n = t[1], i = "i") : (n = t[1][0] || "", i = t[1][1] || ""), new RegExp(n, i).test(t[0])
                         } catch (r) {
-                            return o.error("Rules", 'In operator "regex", error: ' + (r.message || "invalid RegExp /" + [n, i].join("/"))), !1
+                            return o.error("Rules", 'In operator "regex", error: ' + (r.message || "invalid RegExp /" + [n, i].join("./index.html"))), !1
                         }
                     },
                     exists: function(t) {
@@ -10865,7 +10865,7 @@
                     "-": function(t) {
                         return (t[0] || 0) - (t[1] || 0)
                     },
-                    "/": function(t) {
+                    "./index.html": function(t) {
                         return (t[0] || 0) / (t[1] || 1)
                     },
                     "%": function(t) {

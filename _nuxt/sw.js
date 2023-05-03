@@ -6,7 +6,7 @@ const options = {
     },
     "cacheOptions": {
         "cacheId": "appfolio-prod",
-        "directoryIndex": "/",
+        "directoryIndex": "./index.html",
         "revision": "WTiD8tDQKFO0"
     },
     "clientsClaim": true,
@@ -23,13 +23,13 @@ const options = {
         "method": "GET",
         "strategyPlugins": []
     }, {
-        "urlPattern": "/",
+        "urlPattern": "./index.html",
         "handler": "NetworkFirst",
         "method": "GET",
         "strategyPlugins": []
     }],
     "offlinePage": null,
-    "pagesURLPattern": "/",
+    "pagesURLPattern": "./index.html",
     "offlineStrategy": "NetworkFirst"
 }
 

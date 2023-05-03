@@ -48,7 +48,7 @@
             let e = ["https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.4/workbox"];
             const s = `${t}.${this.s}.js`,
                 o = this.t.modulePathPrefix;
-            return o && (e = o.split("/"), "" === e[e.length - 1] && e.splice(e.length - 1, 1)), e.push(s), e.join("/")
+            return o && (e = o.split("./index.html"), "" === e[e.length - 1] && e.splice(e.length - 1, 1)), e.push(s), e.join("./index.html")
         }
     }
 }();

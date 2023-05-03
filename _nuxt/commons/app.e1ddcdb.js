@@ -5245,7 +5245,7 @@
             }, {
                 key: "isAbsolute",
                 get: function() {
-                    return this.hasProtocol || "/" === this.pathname[0]
+                    return this.hasProtocol || "./index.html" === this.pathname[0]
                 }
             }, {
                 key: "search",
@@ -5333,36 +5333,36 @@
 
         function ut() {
             var input = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "";
-            return arguments.length > 1 && void 0 !== arguments[1] && arguments[1] ? at.test(input) : input.endsWith("/")
+            return arguments.length > 1 && void 0 !== arguments[1] && arguments[1] ? at.test(input) : input.endsWith("./index.html")
         }
 
         function ct() {
             var input = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "";
-            if (!(arguments.length > 1 && void 0 !== arguments[1] && arguments[1])) return (ut(input) ? input.slice(0, -1) : input) || "/";
-            if (!ut(input, !0)) return input || "/";
+            if (!(arguments.length > 1 && void 0 !== arguments[1] && arguments[1])) return (ut(input) ? input.slice(0, -1) : input) || "./index.html";
+            if (!ut(input, !0)) return input || "./index.html";
             var t = h(input.split("?")),
                 e = t[0],
                 s = t.slice(1);
-            return (e.slice(0, -1) || "/") + (s.length > 0 ? "?".concat(s.join("?")) : "")
+            return (e.slice(0, -1) || "./index.html") + (s.length > 0 ? "?".concat(s.join("?")) : "")
         }
 
         function st() {
             var input = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "";
-            if (!(arguments.length > 1 && void 0 !== arguments[1] && arguments[1])) return input.endsWith("/") ? input : input + "/";
-            if (ut(input, !0)) return input || "/";
+            if (!(arguments.length > 1 && void 0 !== arguments[1] && arguments[1])) return input.endsWith("./index.html") ? input : input + "./index.html";
+            if (ut(input, !0)) return input || "./index.html";
             var t = h(input.split("?")),
                 e = t[0],
                 s = t.slice(1);
-            return e + "/" + (s.length > 0 ? "?".concat(s.join("?")) : "")
+            return e + "./index.html" + (s.length > 0 ? "?".concat(s.join("?")) : "")
         }
 
         function ft() {
-            return (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "").startsWith("/")
+            return (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "").startsWith("./index.html")
         }
 
         function lt() {
             var input = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "";
-            return (ft(input) ? input.slice(1) : input) || "/"
+            return (ft(input) ? input.slice(1) : input) || "./index.html"
         }
 
         function pt(input, t) {
@@ -5377,7 +5377,7 @@
         }
 
         function ht(t) {
-            return t && "/" !== t
+            return t && "./index.html" !== t
         }
 
         function vt(base) {
@@ -5416,7 +5416,7 @@
             if (!it(input, {
                     acceptRelative: !0
                 })) return t ? bt(t + input) : wt(input);
-            var e = (input.replace(/\\/g, "/").match(/([^/:]+:)?\/\/([^/@]+@)?(.*)/) || []).splice(1),
+            var e = (input.replace(/\\/g, "./index.html").match(/([^/:]+:)?\/\/([^/@]+@)?(.*)/) || []).splice(1),
                 n = Object(r.a)(e, 3),
                 o = n[0],
                 c = void 0 === o ? "" : o,
@@ -5575,7 +5575,7 @@
             m = r && v.name != h;
         (y || m) && o(RegExp.prototype, h, (function() {
             var t = c(this);
-            return "/" + f(t.source) + "/" + f(d(t))
+            return "./index.html" + f(t.source) + "./index.html" + f(d(t))
         }), {
             unsafe: !0
         })
@@ -6088,7 +6088,7 @@
         }, o.binding = function(t) {
             throw new Error("process.binding is not supported")
         }, o.cwd = function() {
-            return "/"
+            return "./index.html"
         }, o.chdir = function(t) {
             throw new Error("process.chdir is not supported")
         }, o.umask = function() {
@@ -7307,7 +7307,7 @@
             var f = {
                 name: e.name || t && t.name,
                 meta: t && t.meta || {},
-                path: e.path || "/",
+                path: e.path || "./index.html",
                 hash: e.hash || "",
                 query: c,
                 params: e.params || {},
@@ -7327,7 +7327,7 @@
             return t
         }
         var _ = w(null, {
-            path: "/"
+            path: "./index.html"
         });
 
         function O(t) {
@@ -7340,7 +7340,7 @@
                 n = t.query;
             void 0 === n && (n = {});
             var r = t.hash;
-            return void 0 === r && (r = ""), (path || "/") + (e || y)(n) + r
+            return void 0 === r && (r = ""), (path || "./index.html") + (e || y)(n) + r
         }
 
         function E(a, b, t) {
@@ -7439,19 +7439,19 @@
 
         function A(t, base, e) {
             var n = t.charAt(0);
-            if ("/" === n) return t;
+            if ("./index.html" === n) return t;
             if ("?" === n || "#" === n) return base + t;
-            var r = base.split("/");
+            var r = base.split("./index.html");
             e && r[r.length - 1] || r.pop();
-            for (var o = t.replace(/^\//, "").split("/"), i = 0; i < o.length; i++) {
+            for (var o = t.replace(/^\//, "").split("./index.html"), i = 0; i < o.length; i++) {
                 var c = o[i];
                 ".." === c ? r.pop() : "." !== c && r.push(c)
             }
-            return "" !== r[0] && r.unshift(""), r.join("/")
+            return "" !== r[0] && r.unshift(""), r.join("./index.html")
         }
 
         function $(path) {
-            return path.replace(/\/(?:\s*\/)+/g, "/")
+            return path.replace(/\/(?:\s*\/)+/g, "./index.html")
         }
         var P = Array.isArray || function(t) {
                 return "[object Array]" == Object.prototype.toString.call(t)
@@ -7466,7 +7466,7 @@
             D = new RegExp(["(\\\\.)", "([\\/.])?(?:(?:\\:(\\w+)(?:\\(((?:\\\\.|[^\\\\()])+)\\))?|\\(((?:\\\\.|[^\\\\()])+)\\))([+*?])?|(\\*))"].join("|"), "g");
 
         function F(t, e) {
-            for (var n, r = [], o = 0, c = 0, path = "", f = e && e.delimiter || "/"; null != (n = D.exec(t));) {
+            for (var n, r = [], o = 0, c = 0, path = "", f = e && e.delimiter || "./index.html"; null != (n = D.exec(t));) {
                 var l = n[0],
                     d = n[1],
                     h = n.index;
@@ -7569,7 +7569,7 @@
                     e.push(f), f.repeat && (d += "(?:" + l + d + ")*"), c += d = f.optional ? f.partial ? l + "(" + d + ")?" : "(?:" + l + "(" + d + "))?" : l + "(" + d + ")"
                 }
             }
-            var h = z(n.delimiter || "/"),
+            var h = z(n.delimiter || "./index.html"),
                 v = c.slice(-h.length) === h;
             return r || (c = (v ? c.slice(0, -h.length) : c) + "(?:" + h + "(?=$))?"), c += o ? "$" : r && v ? "" : "(?=" + h + "|$)", H(new RegExp("^" + c, K(n)), e)
         }
@@ -7644,7 +7644,7 @@
                         hash: t
                     }
                 }(c.path || ""),
-                m = e && e.path || "/",
+                m = e && e.path || "./index.html",
                 path = y.path ? A(y.path, m, n || c.append) : m,
                 w = function(t, e, n) {
                     void 0 === e && (e = {});
@@ -7713,7 +7713,7 @@
                         S = null == this.exactActiveClass ? _ : this.exactActiveClass,
                         j = l.redirectedFrom ? w(null, Y(l.redirectedFrom), null, n) : l;
                     h[S] = E(o, j, this.exactPath), h[O] = this.exact || this.exactPath ? h[S] : function(t, e) {
-                        return 0 === t.path.replace(m, "/").indexOf(e.path.replace(m, "/")) && (!e.hash || t.hash === e.hash) && function(t, e) {
+                        return 0 === t.path.replace(m, "./index.html").indexOf(e.path.replace(m, "./index.html")) && (!e.hash || t.hash === e.hash) && function(t, e) {
                             for (var n in e)
                                 if (!(n in t)) return !1;
                             return !0
@@ -7805,9 +7805,9 @@
             var l = r.pathToRegexpOptions || {},
                 d = function(path, t, e) {
                     e || (path = path.replace(/\/$/, ""));
-                    if ("/" === path[0]) return path;
+                    if ("./index.html" === path[0]) return path;
                     if (null == t) return path;
-                    return $(t.path + "/" + path)
+                    return $(t.path + "./index.html" + path)
                 }(path, o, l.strict);
             "boolean" == typeof r.caseSensitive && (l.sensitive = r.caseSensitive);
             var h = {
@@ -7830,7 +7830,7 @@
                 }
             };
             if (r.children && r.children.forEach((function(r) {
-                    var o = c ? $(c + "/" + r.path) : void 0;
+                    var o = c ? $(c + "./index.html" + r.path) : void 0;
                     at(t, e, n, r, h, o)
                 })), e[h.path] || (t.push(h.path), e[h.path] = h), void 0 !== r.alias)
                 for (var v = Array.isArray(r.alias) ? r.alias : [r.alias], i = 0; i < v.length; ++i) {
@@ -7839,7 +7839,7 @@
                         path: v[i],
                         children: r.children
                     };
-                    at(t, e, n, y, o, h.path || "/")
+                    at(t, e, n, y, o, h.path || "./index.html")
                 }
             f && (n[f] || (n[f] = h))
         }
@@ -7904,7 +7904,7 @@
                 }
                 if (path) {
                     var x = function(path, t) {
-                        return A(path, t.parent ? t.parent.path : "/", !0)
+                        return A(path, t.parent ? t.parent.path : "./index.html", !0)
                     }(path, t);
                     return f({
                         _normalized: !0,
@@ -8182,9 +8182,9 @@
                 if (!base)
                     if (ot) {
                         var t = document.querySelector("base");
-                        base = (base = t && t.getAttribute("href") || "/").replace(/^https?:\/\/[^\/]+/, "")
-                    } else base = "/";
-                "/" !== base.charAt(0) && (base = "/" + base);
+                        base = (base = t && t.getAttribute("href") || "./index.html").replace(/^https?:\/\/[^\/]+/, "")
+                    } else base = "./index.html";
+                "./index.html" !== base.charAt(0) && (base = "./index.html" + base);
                 return base.replace(/\/$/, "")
             }(base), this.current = _, this.pending = null, this.ready = !1, this.readyCbs = [], this.readyErrorCbs = [], this.errorCbs = [], this.listeners = []
         };
@@ -8353,7 +8353,7 @@
             var path = window.location.pathname,
                 t = path.toLowerCase(),
                 e = base.toLowerCase();
-            return !base || t !== e && 0 !== t.indexOf($(e + "/")) || (path = path.slice(base.length)), (path || "/") + window.location.search + window.location.hash
+            return !base || t !== e && 0 !== t.indexOf($(e + "./index.html")) || (path = path.slice(base.length)), (path || "./index.html") + window.location.search + window.location.hash
         }
         var Gt = function(t) {
             function e(e, base, n) {
@@ -8403,7 +8403,7 @@
 
         function Jt() {
             var path = Xt();
-            return "/" === path.charAt(0) || (Zt("/" + path), !1)
+            return "./index.html" === path.charAt(0) || (Zt("./index.html" + path), !1)
         }
 
         function Xt() {
@@ -8455,7 +8455,7 @@
                     }
                 }, e.prototype.getCurrentLocation = function() {
                     var t = this.stack[this.stack.length - 1];
-                    return t ? t.fullPath : "/"
+                    return t ? t.fullPath : "./index.html"
                 }, e.prototype.ensureURL = function() {}, e
             }(qt),
             ee = function(t) {
@@ -8547,7 +8547,7 @@
                 c = o.redirectedFrom || o.fullPath,
                 f = function(base, t, e) {
                     var path = "hash" === e ? "#" + t : t;
-                    return base ? $(base + "/" + path) : path
+                    return base ? $(base + "./index.html" + path) : path
                 }(this.history.base, c, this.mode);
             return {
                 location: r,
@@ -12609,7 +12609,7 @@
     }, function(t, e, n) {
         "use strict";
         t.exports = function(t, e) {
-            return e ? t.replace(/\/+$/, "") + "/" + e.replace(/^\/+/, "") : t
+            return e ? t.replace(/\/+$/, "") + "./index.html" + e.replace(/^\/+/, "") : t
         }
     }, function(t, e, n) {
         "use strict";
@@ -12641,7 +12641,7 @@
                     hash: n.hash ? n.hash.replace(/^#/, "") : "",
                     hostname: n.hostname,
                     port: n.port,
-                    pathname: "/" === n.pathname.charAt(0) ? n.pathname : "/" + n.pathname
+                    pathname: "./index.html" === n.pathname.charAt(0) ? n.pathname : "./index.html" + n.pathname
                 }
             }
             return t = o(window.location.href),

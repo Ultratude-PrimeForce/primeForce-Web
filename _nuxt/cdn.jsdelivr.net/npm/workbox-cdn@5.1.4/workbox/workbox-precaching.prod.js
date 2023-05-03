@@ -214,7 +214,7 @@ this.workbox = this.workbox || {}, this.workbox.precaching = function(t, e, n, i
                     for (const n of [...t.searchParams.keys()]) e.some(t => t.test(n)) && t.searchParams.delete(n);
                     return t
                 }(c, e);
-                if (yield r.href, n && r.pathname.endsWith("/")) {
+                if (yield r.href, n && r.pathname.endsWith("./index.html")) {
                     const t = new URL(r.href);
                     t.pathname += n, yield t.href
                 }

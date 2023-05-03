@@ -329,7 +329,7 @@
             base = decodeURI(base).slice(0, -1);
             var path = decodeURI(window.location.pathname);
             base && path.startsWith(base) && (path = path.slice(base.length));
-            var e = (path || "/") + window.location.search + window.location.hash;
+            var e = (path || "./index.html") + window.location.search + window.location.hash;
             return Object(h.c)(e)
         }
 
@@ -372,7 +372,7 @@
                     r = 0,
                     o = 0,
                     path = "",
-                    c = e && e.delimiter || "/";
+                    c = e && e.delimiter || "./index.html";
                 for (; null != (d = R.exec(t));) {
                     var l = d[0],
                         h = d[1],
@@ -2196,7 +2196,7 @@
         c.default.use(x.a);
         var N = {
             mode: "history",
-            base: "/",
+            base: "./index.html",
             linkActiveClass: "nuxt-link-active",
             linkExactActiveClass: "nuxt-link-exact-active",
             scrollBehavior: function(t, e, d) {
@@ -2227,7 +2227,7 @@
                 },
                 name: "free-demo"
             }, {
-                path: "/",
+                path: "./index.html",
                 component: function() {
                     return Object(w.m)(Promise.all([d.e(0), d.e(1), d.e(4), d.e(7), d.e(139)]).then(d.bind(null, 1157)))
                 },
@@ -2590,7 +2590,7 @@
                         return e.errorFromNuxtError = !1
                     })), t("div", {}, [t("h2", "An error occurred while showing the error page"), t("p", "Unfortunately an error occurred and while showing the error page another error occurred"), t("p", "Error details: ".concat(this.errorFromNuxtError.toString())), t("nuxt-link", {
                         props: {
-                            to: "/"
+                            to: "./index.html"
                         }
                     }, "Go back to home")])) : (this.displayingNuxtError = !0, this.$nextTick((function() {
                         return e.displayingNuxtError = !1
@@ -4392,7 +4392,7 @@
                         return regeneratorRuntime.wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
-                                    return e = v.length > 0 && void 0 !== v[0] ? v[0] : "", d = v.length > 1 && void 0 !== v[1] ? v[1] : 1, n = v.length > 2 && void 0 !== v[2] ? v[2] : null, r = v.length > 3 && void 0 !== v[3] ? v[3] : null, o = "/api/".concat("uberflip", "/").concat(this.streamId), c = {
+                                    return e = v.length > 0 && void 0 !== v[0] ? v[0] : "", d = v.length > 1 && void 0 !== v[1] ? v[1] : 1, n = v.length > 2 && void 0 !== v[2] ? v[2] : null, r = v.length > 3 && void 0 !== v[3] ? v[3] : null, o = "/api/".concat("uberflip", "./index.html").concat(this.streamId), c = {
                                         page: d,
                                         perPage: this.perPage,
                                         terms: e
@@ -7441,7 +7441,7 @@
                             return t.next = 4, d.e(159).then(d.bind(null, 606));
                         case 4:
                             return e = t.sent, n = e.Workbox, r = new n("/sw.js", {
-                                scope: "/"
+                                scope: "./index.html"
                             }), t.next = 9, r.register();
                         case 9:
                             return t.abrupt("return", r);
@@ -10136,11 +10136,11 @@
                     navigateToFollowUpUrl: function(t) {
                         var e = this;
                         this.followUpUrl && (t.FirstName && this.$cookies.set("CookieFirstName", t.FirstName, {
-                            path: "/",
+                            path: "./index.html",
                             maxAge: 604800
                         }), this.$nuxt.$emit("NavHeader::getBackgroundColor", (function(t) {
                             e.$cookies.set("thankYouColor", t, {
-                                path: "/",
+                                path: "./index.html",
                                 maxAge: 60
                             })
                         })), this.$nextTick((function() {
@@ -11057,7 +11057,7 @@
                     class: t.getClasses()
                 }, [e("a", {
                     attrs: {
-                        href: "/",
+                        href: "./index.html",
                         "aria-label": t.logoAriaLabel
                     }
                 }, ["apm" === t.product ? ["light" === t.navigationLogoTheme ? e("img", {
@@ -11599,7 +11599,7 @@
         e.default = function(t) {
             var e = t.route,
                 d = t.redirect;
-            if (!0 === e.path.includes("//")) return d("/")
+            if (!0 === e.path.includes("//")) return d("./index.html")
         }
     }, , , , , , , , , , , , function(t, e, d) {
         "use strict";

@@ -1441,11 +1441,11 @@
                         onSuccessHandler: function(e) {
                             var t = this;
                             this.$cookies.set("CookieFirstName", e.FirstName, {
-                                path: "/",
+                                path: "./index.html",
                                 maxAge: 604800
                             }), this.$nuxt.$emit("NavHeader::getBackgroundColor", (function(e) {
                                 t.$cookies.set("thankYouColor", e, {
-                                    path: "/",
+                                    path: "./index.html",
                                     maxAge: 60
                                 })
                             })), this.$nextTick((function() {
