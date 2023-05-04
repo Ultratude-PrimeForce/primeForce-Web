@@ -1401,16 +1401,18 @@ Why primeForce
     const aria = document.getElementById("v-select-button-401");
     var aria_attr = aria.getAttribute("aria-expanded");
     var menu = document.querySelector(".v-select__menu");
-    if (aria_attr === "false"){
-        document.querySelector(".v-select").classList.add('v-select--opened');
-        aria.setAttribute("aria-expanded", "true");
-        menu.style.display = "block";
-        menu.style.transition = ".5s ease-in-out";
-    } else {
-        document.querySelector(".v-select").classList.remove('v-select--opened');
-        aria.setAttribute("aria-expanded", "false");
-        menu.style.display = "none";
-        menu.style.transition = ".5s ease-in-out";
+    if (menu) {
+        if (aria_attr === "false"){
+            document.querySelector(".v-select").classList.add('v-select--opened');
+            aria.setAttribute("aria-expanded", "true");
+            menu.style.display = "block";
+            menu.style.transition = ".5s ease-in-out";
+        } else {
+            document.querySelector(".v-select").classList.remove('v-select--opened');
+            aria.setAttribute("aria-expanded", "false");
+            menu.style.display = "none";
+            menu.style.transition = ".5s ease-in-out";
+        }
     }
     }
 
