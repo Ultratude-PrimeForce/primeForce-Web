@@ -1425,11 +1425,13 @@ Why primeForce
     if (!btn.contains(evt.target)) {
         // btn.style.display = "none";
         var menu = document.querySelector(".v-select__menu");
-        const aria = document.getElementById("v-select-button-401");
-        document.querySelector(".v-select").classList.remove('v-select--opened');
-        aria.setAttribute("aria-expanded", "false");
-        menu.style.display = "none";
-        menu.style.transition = ".5s ease-in-out";
+        if (menu) {
+            const aria = document.getElementById("v-select-button-401");
+            document.querySelector(".v-select").classList.remove('v-select--opened');
+            aria.setAttribute("aria-expanded", "false");
+            menu.style.display = "none";
+            menu.style.transition = ".5s ease-in-out";
+        }
     }
     }
 
