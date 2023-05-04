@@ -11650,7 +11650,7 @@ span.nowrap[data-v-9dee227a] {
     line-height: 130%;
     margin-left: 0;
     margin-right: 0;
-    background: #1793e0;
+    background: #00adad;
     border-radius: 13px;
     color: #fff;
     font-size: 10px;
@@ -28071,7 +28071,8 @@ body:not(.dont-animate) .picture {
     min-height: 1px;
     display: block;
     height: auto;
-    width: 100%
+    width: 100%;
+    /* border-radius: 16px; */
 }
 
 .screen-reader-only[data-v-0b34b576] {
@@ -29673,7 +29674,7 @@ body:not(.dont-animate) .picture {
     margin: 0 auto;
     max-width: 90rem;
     width: 100%;
-    min-height: 600px;
+    min-height: 550px;
 }
 
 .app-container--fullwidth[data-v-67e96480] {
@@ -39353,13 +39354,15 @@ span.nowrap[data-v-c7930fbe] {
 
 @media(min-width: 768px) {
     .headline-title[data-v-c7930fbe] {
-        font-size: calc(33px + 24 * ((100vw - 768px) / 672))
+        font-size: calc(33px + 24 * ((100vw - 768px) / 672));
+        color: #1e2430;
     }
 }
 
 @media(min-width: 1440px) {
     .headline-title[data-v-c7930fbe] {
-        font-size: 64px
+        font-size: 64px;
+        color: #1e2430;
     }
 }
 
@@ -39382,7 +39385,8 @@ span.nowrap[data-v-c7930fbe] {
     letter-spacing: 0;
     line-height: 150%;
     margin-left: 0;
-    margin-right: 0
+    margin-right: 0;
+    color: #1e2430;
 }
 
 .app-col-md-9[data-v-c7930fbe] {
@@ -50524,7 +50528,7 @@ ul[data-v-0422fd08] {
 }
 
 .gallery--dots .gallery-button.active[data-v-0422fd08]::before {
-    background-color: #1793e0
+    background-color: #00adad
 }
 
 .item-description[data-v-0422fd08] {
@@ -85951,7 +85955,7 @@ li[data-v-14efd83c] {
     line-height: 130%;
     margin-left: 0;
     margin-right: 0;
-    background: #1793e0;
+    background: #00adad;
     border-radius: 3.125rem;
     color: #fff;
     display: inline-block;
@@ -86582,7 +86586,7 @@ body {
 .text__background {
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    left: 20%;
+    left: 15%;
     bottom: 60%;
     color: rgba(0,0,0,0.05);
     font-size: 160px;
@@ -86629,51 +86633,51 @@ body {
 /* Piplup */
 
 .flex--piplup .flex__item--left {
-	background: #3e9fe6;
+	background: #DDDDDD;
 }
 
 .flex--piplup .flex__item--right {
-	background: #d3eaef;
+	background: #C4C4C4;
 }
 
 /* Pikachu */
 
 .flex--pikachu .flex__item--left {
-	background: #f8d41f;
+	background: #EEEEEE
 }
 
 .flex--pikachu .flex__item--right {
-	background: #f4ecc5;
+	background: #D4D4D4
 }
 
 /* Blaziken */
 
 .flex--blaziken .flex__item--left {
-	background: #f64f37;
+	background: #CCCCCC;
 }
 
 .flex--blaziken .flex__item--right {
-	background: #ffebcd;
+	background: #B3B3B3;
 }
 
 /* Dialga */
 
 .flex--dialga .flex__item--left {
-	background: #476089;
+	background: #BBBBBB;
 }
 
 .flex--dialga .flex__item--right {
-	background: #ade8f7;
+	background: #A2A2A2;
 }
 
 /* Zekrom */
 
 .flex--zekrom .flex__item--left {
-	background: #424242;
+	background: #AAAAAA;
 }
 
 .flex--zekrom .flex__item--right {
-	background: #a7bcbb;
+	background: #909090;
 }
 
 .flex__content {
@@ -86688,13 +86692,16 @@ body {
 }
 
 .pokemon__img {
-	position: absolute;
-	bottom: 20px;
-	right: 6%;
-	max-height: 30vw;
-	opacity: 1;
-	transform: translate3d(0,0,0);
-	transition: opacity 0.43s 0.6s, transform 0.4s 0.65s cubic-bezier(0, 0.88, 0.4, 0.93);
+    position: absolute;
+    bottom: 20px;
+    right: 6%;
+    max-width: 600px;
+    min-height: 30vw;
+    max-height: 30vw;
+    opacity: 1;
+    border-radius: 16px;
+    transform: translate3d(0,0,0);
+    transition: opacity 0.43s 0.6s, transform 0.4s 0.65s cubic-bezier(0, 0.88, 0.4, 0.93);
 }
 
 /* Animate-START point */
@@ -86737,4 +86744,41 @@ body {
     .slider__navi {
         display: none;
     }
+}
+
+ul.app-col-md-5.items , .app-col-md-6.app-col-md-offset-1.item-info {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.app-row.app-row-md--middle.gallery--default.gallery--light {
+    max-height: 400px;
+}
+
+
+#profileImage {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #00adad;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 67px;
+    margin: 5px 5px;
+    font-weight: 800;
+}
+
+.profile-image[data-v-3e710361] {
+    flex-shrink: 0;
+    border-radius: 2em;
+    min-height: 3.75em;
+    height: 4.75em;
+    margin-right: 0.5em;
+    overflow: hidden;
+    min-width: 3.75em;
+    width: 5.75em;
 }
