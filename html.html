@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.slider__navi {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	z-index: 999;
+}
+
+.slider__navi a {
+	display: block;
+	height: 6px;
+	width: 20px;
+	margin: 20px 0;
+	text-indent: -9999px;
+	box-shadow: none;
+	border: none;
+	background: rgba(0,0,0,0.2);
+}
+
+.slider__navi a.active {
+	background: rgba(255,255,255,1);
+}
+
+body {
+	position: relative;
+	font-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	min-height: 100vh;
+}
+
+.flex__container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	-o-flex-flow: row wrap;
+	flex-flow: row wrap; 
+	-webkit-justify-content: flex-start;
+	-moz-justify-content: flex-start;
+	-ms-justify-content: flex-start;
+	-o-justify-content: flex-start;
+	justify-content: flex-start;
+	height: 100vh;
+	width: 100%;
+	z-index: 1;
+}
+
+.flex__container.flex--active {
+	z-index: 2;
+}
+
+.text--sub {
+	font-size: 12px;
+	letter-spacing: 0.5rem;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.text--big {
+	font-family: 'Poppins', sans-serif;
+	font-size: 7.5em;
+	font-weight: 700;
+	line-height: 110px;
+  margin-left: -8px;
+}
+
+.text--normal {
+	font-size: 13px;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 22px;
+	margin-top: 25px;
+}
+
+.text__background {
+	font-family: 'Poppins', sans-serif;
+	position: absolute;
+	left: 72px;
+	bottom: -60px;
+	color: rgba(0,0,0,0.05);
+	font-size: 170px;
+	font-weight: 700;
+}
+
+.flex__item {
+	height: 100vh;
+	color: #fff;
+	transition: transform 0.1s linear;
+}
+
+.flex__item--left {
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	width: 65%;
+	transform-origin: left bottom;
+	transition: transform 0.1s linear 0.4s;
+	opacity: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.flex__item--right {
+	width: 35%;
+	transform-origin: right center;
+	transition: transform 0.1s linear 0s;
+	opacity: 0;
+}
+
+.flex--preStart .flex__item--left,
+.flex--preStart .flex__item--right,
+.flex--active .flex__item--left,
+.flex--active .flex__item--right {
+	opacity: 1;
+}
+
+/* Piplup */
+
+.flex--piplup .flex__item--left {
+	background: #3e9fe6;
+}
+
+.flex--piplup .flex__item--right {
+	background: #d3eaef;
+}
+
+/* Pikachu */
+
+.flex--pikachu .flex__item--left {
+	background: #f8d41f;
+}
+
+.flex--pikachu .flex__item--right {
+	background: #f4ecc5;
+}
+
+/* Blaziken */
+
+.flex--blaziken .flex__item--left {
+	background: #f64f37;
+}
+
+.flex--blaziken .flex__item--right {
+	background: #ffebcd;
+}
+
+/* Dialga */
+
+.flex--dialga .flex__item--left {
+	background: #476089;
+}
+
+.flex--dialga .flex__item--right {
+	background: #ade8f7;
+}
+
+/* Zekrom */
+
+.flex--zekrom .flex__item--left {
+	background: #424242;
+}
+
+.flex--zekrom .flex__item--right {
+	background: #a7bcbb;
+}
+
+.flex__content {
+	margin-left: 80px;
+	width: 55%;
+	opacity: 1;
+	transform: translate3d(0,0,0);
+	transition: transform 0.2s linear 0.2s, opacity 0.1s linear 0.2s;
+}
+
+.pokemon__img {
+	position: absolute;
+	bottom: 20px;
+	right: 15%;
+	max-height: 40vw;
+	opacity: 1;
+	transform: translate3d(0,0,0);
+	transition: opacity 0.43s 0.6s, transform 0.4s 0.65s cubic-bezier(0, 0.88, 0.4, 0.93);
+}
+
+/* Animate-START point */
+
+.flex__container.animate--start .flex__content {
+	transform: translate3d(0,-200%,0);
+	opacity: 0;
+}
+
+.flex__container.animate--start .pokemon__img {
+	transform: translate3d(-200px,0,0);
+	opacity: 0;
+}
+
+/* Animate-END point */
+
+.flex__container.animate--end .flex__item--left {
+	transform: scaleY(0);
+}
+
+.flex__container.animate--end .flex__item--right {
+	transform: scaleX(0);
+}
+
+.flex__container.animate--end .flex__content {
+	transform: translate3d(0,200%,0);
+	opacity: 0;
+}
+
+.flex__container.animate--end .pokemon__img {
+	transform: translate3d(200px,0,0);
+	opacity: 0;
+}
+</style>
+<body>
+    <div class="slider__warpper">
+        <div class="flex__container flex--pikachu flex--active" data-slide="1">
+          <div class="flex__item flex__item--left">
+            <div class="flex__content">
+              <p class="text--sub">Pokemon Gen I</p>
+              <h1 class="text--big">Pikachu</h1>
+              <p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p>
+            </div>
+            <p class="text__background">Pikachu</p>
+          </div>
+          <div class="flex__item flex__item--right"></div>
+          <img class="pokemon__img" src="https://s4.postimg.org/fucnrdeq5/pikachu.png" />
+        </div>
+        <div class="flex__container flex--piplup animate--start" data-slide="2">
+          <div class="flex__item flex__item--left">
+            <div class="flex__content">
+              <p class="text--sub">Pokemon Gen IV</p>
+              <h1 class="text--big">Piplup</h1>
+              <p class="text--normal">Piplup is the Water-type Starter Pokémon of the Sinnoh region. It was introduced in Generation IV. Piplup has a strong sense of self-esteem. It seldom accepts food that people give because of its pride.</p>
+            </div>
+            <p class="text__background">Piplup</p>
+          </div>
+          <div class="flex__item flex__item--right"></div>
+          <img class="pokemon__img" src="https://cdn.pixabay.com/photo/2016/11/04/21/34/beach-1799006__480.jpg" />
+        </div>
+        <div class="flex__container flex--blaziken animate--start" data-slide="3">
+          <div class="flex__item flex__item--left">
+            <div class="flex__content">
+              <p class="text--sub">Pokemon Gen III</p>
+              <h1 class="text--big">Blaziken</h1>
+              <p class="text--normal">Blaziken is the Fire/Fighting-type Starter Pokémon of the Hoenn region, introduced in Generation III. Blaziken is a large, bipedal, humanoid bird-like Pokémon that resembles a rooster.</p>
+            </div>
+            <p class="text__background">Blaziken</p>
+          </div>
+          <div class="flex__item flex__item--right"></div>
+          <img class="pokemon__img" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" />
+        </div>
+        <div class="flex__container flex--dialga animate--start" data-slide="4">
+          <div class="flex__item flex__item--left">
+            <div class="flex__content">
+              <p class="text--sub">Pokemon Gen IV</p>
+              <h1 class="text--big">Dialga</h1>
+              <p class="text--normal">Dialga is a Steel/Dragon-type Legendary Pokémon. Dialga is a sauropod-like Pokémon. It is mainly blue with some gray, metallic portions, such as its chest plate, which has a diamond in the center. It also has various, light blue lines all over
+                its body.</p>
+            </div>
+            <p class="text__background">Dialga</p>
+          </div>
+          <div class="flex__item flex__item--right"></div>
+          <img class="pokemon__img" src="https://media.istockphoto.com/id/1299026534/photo/nairobi-kenya.jpg?s=612x612&w=0&k=20&c=xwCQ441cTHFBTZpb8ihvVwqqtTZjmees1C3xdJc_nfw=" />
+        </div>
+        <div class="flex__container flex--zekrom animate--start" data-slide="5">
+          <div class="flex__item flex__item--left">
+            <div class="flex__content">
+              <p class="text--sub">Pokemon Gen V</p>
+              <h1 class="text--big">Zekrom</h1>
+              <p class="text--normal">Zekrom is a Dragon/Electric-type Legendary Pokémon. It is part of the Tao Trio, along with Reshiram and Kyurem. Zekrom is a large, black draconian Pokémon that seems to share its theme with its counterpart, Reshiram. It has piercing red eyes and
+                dark gray to black skin that seems to be armor-like.</p>
+            </div>
+            <p class="text__background">Zekrom</p>
+          </div>
+          <div class="flex__item flex__item--right"></div>
+          <img class="pokemon__img" src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg" />
+        </div>
+      </div>
+      
+      <div class="slider__navi">
+        <a href="#" class="slide-nav active" data-slide="1">pikachu</a>
+        <a href="#" class="slide-nav" data-slide="2">piplup</a>
+        <a href="#" class="slide-nav" data-slide="3">blaziken</a>
+        <a href="#" class="slide-nav" data-slide="4">dialga</a>
+        <a href="#" class="slide-nav" data-slide="5">zekrom</a>
+      </div>
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>
+    $('.slide-nav').on('click', function(e) {
+  e.preventDefault();
+  // get current slide
+  var current = $('.flex--active').data('slide'),
+    // get button data-slide
+    next = $(this).data('slide');
+
+  $('.slide-nav').removeClass('active');
+  $(this).addClass('active');
+
+  if (current === next) {
+    return false;
+  } else {
+    $('.slider__warpper').find('.flex__container[data-slide=' + next + ']').addClass('flex--preStart');
+    $('.flex--active').addClass('animate--end');
+    setTimeout(function() {
+      $('.flex--preStart').removeClass('animate--start flex--preStart').addClass('flex--active');
+      $('.animate--end').addClass('animate--start').removeClass('animate--end flex--active');
+    }, 800);
+  }
+});
+</script>
+</html>

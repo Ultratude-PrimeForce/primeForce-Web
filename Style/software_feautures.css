@@ -20147,6 +20147,8 @@ span.nowrap[data-v-9de55114] {
         width: 10.4375rem;
     }
 }
+
+
 @media (min-width: 1440px) {
     .logo a[data-v-9de55114],
     .logo .branding[data-v-9de55114] {
@@ -21610,11 +21612,15 @@ body:not(.dont-animate) .picture {
     opacity: 1;
 }
 .image[data-v-304743ea] {
+    position: relative;
     min-width: 1px;
     min-height: 1px;
     display: block;
     height: auto;
     width: 100%;
+    /* left: 100%;
+    transform: translateX(-20%); */
+    filter: drop-shadow(2px 4px 6px black);
 }
 .screen-reader-only[data-v-0b34b576] {
     position: absolute;
@@ -59284,8 +59290,8 @@ span.nowrap[data-v-5a36913a] {
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 3.5em;
-    padding-top: 5em;
+    padding: 1.5em;
+    padding-top: 2em;
 }
 @media (max-width: 768px) {
     .card[data-v-5a36913a] {
