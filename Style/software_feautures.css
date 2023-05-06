@@ -21618,9 +21618,6 @@ body:not(.dont-animate) .picture {
     display: block;
     height: auto;
     width: 100%;
-    /* left: 100%;
-    transform: translateX(-20%); */
-    filter: drop-shadow(2px 4px 6px black);
 }
 .screen-reader-only[data-v-0b34b576] {
     position: absolute;
@@ -59316,6 +59313,7 @@ span.nowrap[data-v-5a36913a] {
         font-size: 1.5rem;
         line-height: 115%;
         letter-spacing: -0.02em;
+        font-weight: 800;
     }
 }
 .user-info[data-v-5a36913a] {
@@ -62932,4 +62930,9 @@ span.nowrap[data-v-9af136d0] {
 }
 .star-container.active[data-v-4de4c381] {
     color: #f5c670;
+}
+.anchor-list-item a[data-v-269f87db]:hover {
+    color: #1e2430;
+    text-decoration: none;
+    cursor: pointer;
 }
