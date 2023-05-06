@@ -86746,12 +86746,21 @@ body {
     }
 }
 
-ul.app-col-md-5.items , .app-col-md-6.app-col-md-offset-1.item-info {
+ul.app-col-md-5.items {
     position: relative;
     height: 100%;
     width: 100%;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.app-col-md-6.app-col-md-offset-1.item-info {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -50%;
+    transform: translateY(-50%);
+    left: 70%;
 }
 
 .app-row.app-row-md--middle.gallery--default.gallery--light {
