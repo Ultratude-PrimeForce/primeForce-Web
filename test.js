@@ -47,14 +47,11 @@ var mobileContent = '<div data-v-3565437b="" data-v-513acabc="" id = "navmobile"
 '<ul data-v-3565437b="" class="navmobile__menu">'+
 '<li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
 '<span data-v-30fd8976="" class="navmobilelink__label">Our Software</span>'+ 
-'<svg data-v-962c30ae="" data-v-30fd8976="" id="caret-right" viewBox="0 0 32 32" aria-hidden="true" width="32" height="32" class="icon navmobilelink__icon">'+
 '<path data-v-962c30ae="" d="M13 10.0198L18.246 15.2788L18.9303 16L18.2461 16.721L13 21.9802L14.0173 23L21 16L14.0173 9L13 10.0198Z"></path>'+
 '</svg>'+'</li>'+'<li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
-'<span data-v-30fd8976="" class="navmobilelink__label">Who We Serve</span>'+ 
-'<svg data-v-962c30ae="" data-v-30fd8976="" id="caret-right" viewBox="0 0 32 32" aria-hidden="true" width="32" height="32" class="icon navmobilelink__icon">'+
 '<path data-v-962c30ae="" d="M13 10.0198L18.246 15.2788L18.9303 16L18.2461 16.721L13 21.9802L14.0173 23L21 16L14.0173 9L13 10.0198Z">'+'</path>'+'</svg>'+'</li>'+
 '<li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
-'<a data-v-30fd8976="" href="/pricing" target="_self">'+
+'<a data-v-30fd8976="" href="./pricing.html" target="_self">'+
 '<span data-v-30fd8976="" class="navmobilelink__label">Pricing</span>'+ 
 '</a>'+'</li><li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
 '<span data-v-30fd8976="" class="navmobilelink__label">Why AppFolio</span>'+ 
