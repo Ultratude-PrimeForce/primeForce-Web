@@ -15678,7 +15678,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/47/sem.html"
+                                "value": "./primeforce.com/apm/lp/47/sem.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15717,11 +15717,11 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/47/sem.html"
+                                "value": "./primeforce.com/apm/lp/47/sem.html"
                             }, {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/253/sem.html"
+                                "value": "./primeforce.com/apm/lp/253/sem.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15747,7 +15747,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/53/sem-ny.html"
+                                "value": "./primeforce.com/apm/lp/53/sem-ny.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15760,7 +15760,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/63/sem-pdx.html"
+                                "value": "./primeforce.com/apm/lp/63/sem-pdx.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15773,7 +15773,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/66/sem-smf.html"
+                                "value": "./primeforce.com/apm/lp/66/sem-smf.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15786,7 +15786,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/67/sem-aus.html"
+                                "value": "./primeforce.com/apm/lp/67/sem-aus.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15799,7 +15799,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/51/sem-hou.html"
+                                "value": "./primeforce.com/apm/lp/51/sem-hou.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15812,7 +15812,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/49/sem-chi.html"
+                                "value": "./primeforce.com/apm/lp/49/sem-chi.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15825,7 +15825,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/53/sem-ny.html"
+                                "value": "./primeforce.com/apm/lp/53/sem-ny.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15838,7 +15838,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/52/sem-la.html"
+                                "value": "./primeforce.com/apm/lp/52/sem-la.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15851,7 +15851,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/68/sem-cmh.html"
+                                "value": "./primeforce.com/apm/lp/68/sem-cmh.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15864,7 +15864,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/62/sem-las.html"
+                                "value": "./primeforce.com/apm/lp/62/sem-las.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15877,7 +15877,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/60/sem-phl.html"
+                                "value": "./primeforce.com/apm/lp/60/sem-phl.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15890,7 +15890,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/59/sem-atl.html"
+                                "value": "./primeforce.com/apm/lp/59/sem-atl.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15903,7 +15903,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/65/sem-msp.html"
+                                "value": "./primeforce.com/apm/lp/65/sem-msp.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15916,7 +15916,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://learn.appfolio.com/apm/lp/64/sem-okc.html"
+                                "value": "./primeforce.com/apm/lp/64/sem-okc.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16055,7 +16055,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/322/sem-step1.html"
+                                "value": "./primeforce.com/apm/lp/322/sem-step1.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16068,7 +16068,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/393/sem.html"
+                                "value": "./primeforce.com/apm/lp/393/sem.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16107,7 +16107,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/323/sem-step2.html"
+                                "value": "./primeforce.com/apm/lp/323/sem-step2.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16120,7 +16120,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/428/next-gen-property-management-software-PLUS.html"
+                                "value": "./primeforce.com/apm/lp/428/next-gen-property-management-software-PLUS.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16133,7 +16133,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/430/next-gen-property-management-software-PLUS-thank-you.html"
+                                "value": "./primeforce.com/apm/lp/430/next-gen-property-management-software-PLUS-thank-you.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16146,7 +16146,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/429/next-gen-property-management-software-PLUS-step2.html"
+                                "value": "./primeforce.com/apm/lp/429/next-gen-property-management-software-PLUS-step2.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16159,7 +16159,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/424/next-generation-property-management-software-ca.html"
+                                "value": "./primeforce.com/apm/lp/424/next-generation-property-management-software-ca.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16172,7 +16172,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/506/next-generation-property-management-software-ca2-thanks.html"
+                                "value": "./primeforce.com/apm/lp/506/next-generation-property-management-software-ca2-thanks.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16185,7 +16185,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/427/next-generation-property-management-software-ca-thanks.html"
+                                "value": "./primeforce.com/apm/lp/427/next-generation-property-management-software-ca-thanks.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16198,7 +16198,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": " https://learn.appfolio.com/apm/lp/424/next-generation-property-management-software-ca.html"
+                                "value": " ./primeforce.com/apm/lp/424/next-generation-property-management-software-ca.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16211,11 +16211,11 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/427/next-generation-property-management-software-ca-thanks.html"
+                                "value": "./primeforce.com/apm/lp/427/next-generation-property-management-software-ca-thanks.html"
                             }, {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/506/next-generation-property-management-software-ca2-thanks.html"
+                                "value": "./primeforce.com/apm/lp/506/next-generation-property-management-software-ca2-thanks.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16228,11 +16228,11 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/426/next-generation-property-management-software-ca-step2.html"
+                                "value": "./primeforce.com/apm/lp/426/next-generation-property-management-software-ca-step2.html"
                             }, {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/504/next-generation-property-management-software-ca2.html"
+                                "value": "./primeforce.com/apm/lp/504/next-generation-property-management-software-ca2.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16245,7 +16245,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/504/next-generation-property-management-software-ca2.html"
+                                "value": "./primeforce.com/apm/lp/504/next-generation-property-management-software-ca2.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16271,7 +16271,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/220/hoa.html"
+                                "value": "./primeforce.com/apm/lp/220/hoa.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16284,7 +16284,7 @@
                             "staticConditions": ["or", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/323/sem-step2.html"
+                                "value": "./primeforce.com/apm/lp/323/sem-step2.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16297,7 +16297,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://learn.appfolio.com/apm/lp/588/2step-step2.html"
+                                "value": "./primeforce.com/apm/lp/588/2step-step2.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,

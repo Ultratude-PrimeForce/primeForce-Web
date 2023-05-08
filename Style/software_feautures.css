@@ -89,7 +89,7 @@
     font-weight: 700;
     src: url("../primeforce.com/apm/www/v3/fonts/helvetica-now/display/bold.eot");
     src: url("../primeforce.com/apm/www/v3/fonts/helvetica-now/display/bold.eot") format("embedded-opentype"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/display/bold.woff2") format("woff2"),
-        url("../primeforce.com/apm/www/v3/fonts/helvetica-now/display/bold.woff2") format("woff"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/display/bold.ttf") format("truetype"),
+        url("../primeforce.com/apm/www/v3/fonts/helvetica-now/display/bold.woff2") format("woff"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/display/bold.woff2") format("truetype"),
         url("../primeforce.com/apm/www/v3/fonts/helvetica-now/display/bold.svg") format("svg");
 }
 @font-face {
@@ -97,7 +97,7 @@
     font-family: "HelveticaNowText";
     src: url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/regular.eot");
     src: url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/regular.eot") format("embedded-opentype"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/regular.woff2") format("woff2"),
-        url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/regular.woff2") format("woff"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/regular.ttf") format("truetype"),
+        url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/regular.woff2") format("woff"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/regular.woff2") format("truetype"),
         url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/regular.svg") format("svg");
 }
 @font-face {
@@ -106,7 +106,7 @@
     font-weight: 700;
     src: url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/bold.eot");
     src: url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/bold.eot") format("embedded-opentype"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/bold.woff2") format("woff2"),
-        url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/bold.woff2") format("woff"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/bold.ttf") format("truetype"),
+        url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/bold.woff2") format("woff"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/bold.woff2") format("truetype"),
         url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/bold.svg") format("svg");
 }
 @font-face {
@@ -115,7 +115,7 @@
     font-weight: normal;
     src: url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/light.eot");
     src: url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/light.eot") format("embedded-opentype"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/light.woff2") format("woff2"),
-        url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/light.woff2") format("woff"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/light.ttf") format("truetype"),
+        url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/light.woff2") format("woff"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/light.woff2") format("truetype"),
         url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/light.svg") format("svg");
 }
 @font-face {
@@ -124,7 +124,7 @@
     font-weight: 500;
     src: url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/medium.eot");
     src: url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/medium.eot") format("embedded-opentype"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/medium.woff2") format("woff2"),
-        url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/medium.woff2") format("woff"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/medium.ttf") format("truetype"),
+        url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/medium.woff2") format("woff"), url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/medium.woff2") format("truetype"),
         url("../primeforce.com/apm/www/v3/fonts/helvetica-now/text/medium.svg") format("svg");
 }
 .screen-reader-only {
