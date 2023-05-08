@@ -55752,6 +55752,8 @@ span.nowrap[data-v-3cf6767a] {
     margin-right: 20px;
 }
 .navmobilelink > a[data-v-30fd8976] {
+color: #000;
+text-decoration: none !important;
     color: inherit !important;
     display: flex;
     flex: 1;

@@ -50075,7 +50075,6 @@
                 display: flex;
                 margin-left: 32px;
                 margin-right: 16px;
-                text-decoration: none
             }
             .navmobilelink + .navmobilelink[data-v-30fd8976] {
                 margin-top: 20px;
@@ -50089,6 +50088,8 @@
                 margin-right: 20px;
             }
             .navmobilelink > a[data-v-30fd8976] {
+color: #000;
+text-decoration: none !important;
                 color: inherit !important;
                 display: flex;
                 flex: 1;

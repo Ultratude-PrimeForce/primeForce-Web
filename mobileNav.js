@@ -45,7 +45,7 @@ var mobileContent = '<div data-v-3565437b="" data-v-513acabc="" id = "navmobile"
 '<div data-v-3565437b="" class="navmobile__pages" style="left: 0%;">'+
 '<div data-v-3565437b="" class="navmobile__page">'+
 '<ul data-v-3565437b="" class="navmobile__menu">'+
-'<a href = "./software-features.html" style = "text-decoration: none"><li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
+'<a href = "./software_features.html" style = "text-decoration: none; color: #000 !important"><li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
 '<span data-v-30fd8976="" class="navmobilelink__label">Our Software</span>'+ 
 '<path data-v-962c30ae="" d="M13 10.0198L18.246 15.2788L18.9303 16L18.2461 16.721L13 21.9802L14.0173 23L21 16L14.0173 9L13 10.0198Z"></path>'+
 '</svg>'+'</li></a>'+'<li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
@@ -53,7 +53,7 @@ var mobileContent = '<div data-v-3565437b="" data-v-513acabc="" id = "navmobile"
 '<li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
 '<a data-v-30fd8976="" href="./pricing.html" target="_self">'+
 '<span data-v-30fd8976="" class="navmobilelink__label">Pricing</span>'+ 
-'</a>'+'</li><a href = "./integrations.html" <li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
+'</a>'+'</li><a href = "./integrations.html" style = "text-decoration: none; color: #000 !important" <li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
 '<span data-v-30fd8976="" class="navmobilelink__label">Integrations</span>'+ 
 '</li></a>'+
 '<li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
