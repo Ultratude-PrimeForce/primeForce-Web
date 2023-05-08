@@ -19,7 +19,7 @@ var mobileContent = '<div data-v-3565437b="" data-v-513acabc="" id = "navmobile"
 '</div>'+
 '</div>'+
 '<div data-v-3565437b="" class="rightside app-row app-row-xs--end app-row-xs--middle app-col-xs-11">'+
-'<a data-v-535fc510="" data-v-3565437b="" href="/free-demo" target="_self" rel="noopener noreferrer" class="cta-link demo default">'+
+'<a data-v-535fc510="" data-v-3565437b="" href="/pricing.html" target="_self" rel="noopener noreferrer" class="cta-link demo default">'+
 '<span data-v-535fc510="" class="label__text">'+
 '<span data-v-535fc510="" class="label__underline"> Free Demo </span>'+
 '</span>'+
@@ -45,7 +45,7 @@ var mobileContent = '<div data-v-3565437b="" data-v-513acabc="" id = "navmobile"
 '<div data-v-3565437b="" class="navmobile__pages" style="left: 0%;">'+
 '<div data-v-3565437b="" class="navmobile__page">'+
 '<ul data-v-3565437b="" class="navmobile__menu">'+
-'<a href = "./software-features.html"><li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
+'<a href = "./software-features.html" style = "text-decoration: none"><li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+
 '<span data-v-30fd8976="" class="navmobilelink__label">Our Software</span>'+ 
 '<path data-v-962c30ae="" d="M13 10.0198L18.246 15.2788L18.9303 16L18.2461 16.721L13 21.9802L14.0173 23L21 16L14.0173 9L13 10.0198Z"></path>'+
 '</svg>'+'</li></a>'+'<li data-v-30fd8976="" data-v-3565437b="" class="navmobilelink navmobile__link">'+

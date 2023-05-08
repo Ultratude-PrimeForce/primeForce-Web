@@ -50075,6 +50075,7 @@
                 display: flex;
                 margin-left: 32px;
                 margin-right: 16px;
+                text-decoration: none
             }
             .navmobilelink + .navmobilelink[data-v-30fd8976] {
                 margin-top: 20px;
@@ -50091,7 +50092,7 @@
                 color: inherit !important;
                 display: flex;
                 flex: 1;
-                text-decoration: inherit !important;
+                text-decoration: none !important;
             }
             .navmobilelink > a[target="_blank"] > .navmobilelink__label[data-v-30fd8976]::after {
                 background-image: url("../primeforce.com/apm/www/assets/static/svgs/new-tab-icon.svg");
@@ -50113,6 +50114,8 @@
                 margin-right: 0;
                 flex: 1 1 auto;
                 font-size: 26px;
+                text-decoration: none !important;
+                color: #000;
             }
             @media (min-width: 768px) {
                 .navmobilelink__label[data-v-30fd8976] {

@@ -32758,6 +32758,7 @@ span.nowrap[data-v-aee39934] {
     overflow: hidden;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    max-height: 500px;
 }
 .screen-reader-only[data-v-269f87db] {
     position: absolute;
