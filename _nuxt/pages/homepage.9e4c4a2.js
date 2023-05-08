@@ -158,7 +158,7 @@
                                 }],
                                 mediaH1: {
                                     title: "The only property management <strong>solution</strong> you will ever need",
-                                    subtitle: "Imagine a world where choosing, living in, owning, and managing communities feels magical and effortless. AppFolio Property Manager automates repetitive tasks and optimizes your workflows, providing you with the clarity and focus you need to reach your goals.",
+                                    subtitle: "Imagine a world where choosing, living in, owning, and managing communities feels magical and effortless. primeForce Property Manager automates repetitive tasks and optimizes your workflows, providing you with the clarity and focus you need to reach your goals.",
                                     cta: "Book a Demo",
                                     href: "/free-demo",
                                     image: {
@@ -181,9 +181,9 @@
                                     style: {
                                         color: "#1e2430"
                                     },
-                                    eyebrow: "Introducing AppFolio Stack™",
+                                    eyebrow: "Introducing primeForce Stack™",
                                     title: "Level up your integrations",
-                                    description: "AppFolio Stack™ is our new integration marketplace that pairs rich functionality and deep data access with a seamless user experience. We’ve extended our powerful and easy to use platform with the industry’s top proptech solutions, so you now have the ability to customize your tech stack and give your most business-critical workflows a competitive edge.",
+                                    description: "primeForce Stack™ is our new integration marketplace that pairs rich functionality and deep data access with a seamless user experience. We’ve extended our powerful and easy to use platform with the industry’s top proptech solutions, so you now have the ability to customize your tech stack and give your most business-critical workflows a competitive edge.",
                                     cta: "Learn More",
                                     href: "/stack",
                                     backgroundColor: "#d9ecfe"
@@ -196,10 +196,10 @@
                                     content: [{
                                         label: "Residential",
                                         image: {
-                                            source: "https://appfoliocdn.s3.amazonaws.com/apm/gtmetrix/who-we-server-animated-residential.png",
+                                            source: "https://primeForcecdn.s3.amazonaws.com/apm/gtmetrix/who-we-server-animated-residential.png",
                                             altText: ""
                                         },
-                                        description: "Manage your entire residential portfolio on one intuitive platform. With AppFolio your team can do anything from anywhere in a fully digital environment. Streamlined processes and smart automation free your team to focus on your communities and deliver an outstanding resident experience.",
+                                        description: "Manage your entire residential portfolio on one intuitive platform. With primeForce your team can do anything from anywhere in a fully digital environment. Streamlined processes and smart automation free your team to focus on your communities and deliver an outstanding resident experience.",
                                         cta: "Learn more",
                                         ctaLink: "/who-we-serve/residential"
                                     }, {
@@ -208,7 +208,7 @@
                                             source: "".concat(n.a, "GYMK570U/at/6373mnpj4bn6ps4jb3bksqz/who-we-server-animated-community-association.gif"),
                                             altText: ""
                                         },
-                                        description: "Stay connected and deliver instant service to board members and homeowners while streamlining your business. From built-in communication tools to robust accounting, AppFolio is your trusted partner for efficiently managing all your HOA and Condo needs.",
+                                        description: "Stay connected and deliver instant service to board members and homeowners while streamlining your business. From built-in communication tools to robust accounting, primeForce is your trusted partner for efficiently managing all your HOA and Condo needs.",
                                         cta: "Learn more",
                                         ctaLink: "/who-we-serve/community-associations"
                                     }, {
@@ -217,7 +217,7 @@
                                             source: "".concat(n.a, "GYMK570U/at/6rsmxvrvpbcjw7gq3sghw/who-we-server-animated-commerciaI.gif"),
                                             altText: ""
                                         },
-                                        description: "Whether it’s through our intuitive CAM reconciliation, purpose-built data and reporting tools, or the ability to easily surface information via universal search, AppFolio’s online property management software has your commercial needs covered.",
+                                        description: "Whether it’s through our intuitive CAM reconciliation, purpose-built data and reporting tools, or the ability to easily surface information via universal search, primeForce’s online property management software has your commercial needs covered.",
                                         cta: "Learn more",
                                         ctaLink: "/who-we-serve/commercial"
                                     }, {
@@ -227,9 +227,9 @@
                                             source: "".concat(n.a, "GYMK570U/at/kwsfpg7ht4npvqb894pvbcjs/who-we-server-animated-Investment-management.gif"),
                                             altText: ""
                                         },
-                                        description: "AppFolio Investment Management is an all-in-one solution that empowers general partners to streamline real estate investment management with a robust CRM system for effective fundraising, an automated waterfall distribution tool, a self-service Investor Portal, and more.",
+                                        description: "primeForce Investment Management is an all-in-one solution that empowers general partners to streamline real estate investment management with a robust CRM system for effective fundraising, an automated waterfall distribution tool, a self-service Investor Portal, and more.",
                                         cta: "Get Started",
-                                        ctaLink: "https://www.appfolioinvestmentmanagement.com/"
+                                        ctaLink: "https://www.primeForceinvestmentmanagement.com/"
                                     }]
                                 }
                             },
@@ -240,9 +240,9 @@
                                         title: "Communication & Service",
                                         image: {
                                             source: "".concat(n.a, "1TPX6JVS/at/vfw3xg7gt4nxxpfns7cm463/motion-ui-communication-service.gif"),
-                                            altText: "App screenshot showing AppFolio Chat"
+                                            altText: "App screenshot showing primeForce Chat"
                                         },
-                                        description: "Your customers will love AppFolio. Online portals provide easy access to any action. From anywhere on any device.",
+                                        description: "Your customers will love primeForce. Online portals provide easy access to any action. From anywhere on any device.",
                                         cta: "Learn More",
                                         ctaLink: "/our-software/communication-service"
                                     }, {
@@ -287,7 +287,7 @@
                                             source: "".concat(n.a, "1TPX6JVS/at/7rkw4zjsmtr59p27862m5vgr/motion-ui-management-growth.gif"),
                                             altText: "App screenshot showing Performance Insights screen"
                                         },
-                                        description: "Grow your business without ever missing a beat. AppFolio is designed to give you the clarity to focus on what drives your success.",
+                                        description: "Grow your business without ever missing a beat. primeForce is designed to give you the clarity to focus on what drives your success.",
                                         cta: "Learn More",
                                         ctaLink: "/our-software/management-growth"
                                     }],
@@ -310,7 +310,7 @@
                                         altText: ""
                                     }],
                                     list: {
-                                        title: "AppFolio's proven approach",
+                                        title: "primeForce's proven approach",
                                         listItems: [{
                                             title: "Remarkable service",
                                             description: "You matter to us. It's that simple. No matter if it's onboarding, support, or strategic advice."
@@ -338,7 +338,7 @@
                                     cta: "Read More",
                                     href: "/industry-insights/customer-stories",
                                     cards: [{
-                                        quote: "AppFolio has made us more efficient, allowing us to grow without increasing staffing.",
+                                        quote: "primeForce has made us more efficient, allowing us to grow without increasing staffing.",
                                         profileImage: {
                                             source: "".concat(n.a, "1TPX6JVS/at/sgw6cpvzkm63f9br4zqbtk9n/headshot-warner-johnson.png"),
                                             altText: "Photo of Warner Johnson"
@@ -346,7 +346,7 @@
                                         reviewerName: "Warner Johnson",
                                         reviewerTitle: "Duckworth-Morris Real Estate<br/>4,800+ Units"
                                     }, {
-                                        quote: "From a customer standpoint, I'm excited that AppFolio is experimenting and driving new innovations.",
+                                        quote: "From a customer standpoint, I'm excited that primeForce is experimenting and driving new innovations.",
                                         profileImage: {
                                             source: "".concat(n.a, "1TPX6JVS/at/prtcrq8m9qg3rhcrzftn6x5/headshot-jon-snow.png"),
                                             altText: "Photo of Jon Snow"
@@ -354,7 +354,7 @@
                                         reviewerName: "Jon Snow",
                                         reviewerTitle: "Crescent Canyon<br/>1,000+ Units"
                                     }, {
-                                        quote: "AppFolio has allowed us to streamline our workflows so we can focus on what’s most important – our relationships.",
+                                        quote: "primeForce has allowed us to streamline our workflows so we can focus on what’s most important – our relationships.",
                                         profileImage: {
                                             source: "".concat(n.a, "1TPX6JVS/at/5gkg92qfc9964b89pwcwj/headshot-carina-lyons.png"),
                                             altText: "Photo of Carina Lyons"
@@ -374,18 +374,18 @@
                                     paragraph: {
                                         title: "Customer service built on a thriving culture",
                                         description: "<p>Serving more than 7 million units across the United States, our customer connections are the heart of our culture. They are the backbone of how we fuel innovation, service, and your success and growth. We believe happier, engaged team members deliver a better customer experience for all. That’s why we purposefully focus on our culture as a key foundation for our success.</p>",
-                                        cta: "Why AppFolio",
+                                        cta: "Why primeForce",
                                         ctaLink: "/our-software",
                                         image: {
                                             source: "".concat(n.a, "1TPX6JVS/at/22jj55js67f3jg5hxwhxzh9/awards-company-culture-4-badge-2022.svg"),
-                                            altText: "Awards that AppFolio has won"
+                                            altText: "Awards that primeForce has won"
                                         }
                                     }
                                 }
                             },
                             section7: {
                                 headline: {
-                                    title: "Insights from the AppFolio Team"
+                                    title: "Insights from the primeForce Team"
                                 },
                                 carouselProps: [{
                                     image: {
@@ -394,7 +394,7 @@
                                     },
                                     eyebrow: "Watch",
                                     headline: "Attract great residents",
-                                    description: "Leasing with AppFolio Property Manager.",
+                                    description: "Leasing with primeForce Property Manager.",
                                     ctaLink: "https://youtu.be/gQ69ulKqVg4",
                                     target: n.j.BLANK
                                 }, {
@@ -415,7 +415,7 @@
                                     eyebrow: "Read",
                                     headline: "How to be a more effective leader",
                                     description: "Learn how to lead with confidence and keep your teams motivated, while maintaining productivity and growth.",
-                                    ctaLink: "https://info.appfolio.com/APM-CD-ASSET-BeAMoreEffectiveLeader_lpform.html",
+                                    ctaLink: "https://info.primeForce.com/APM-CD-ASSET-BeAMoreEffectiveLeader_lpform.html",
                                     target: n.j.BLANK
                                 }, {
                                     image: {
@@ -438,7 +438,7 @@
                                 },
                                 expertsData: {
                                     title: "Talk with an expert",
-                                    description: "Do your most important work in one single property management platform. Book a free product<br @md/> demo with a product expert today to see what AppFolio can do for you.",
+                                    description: "Do your most important work in one single property management platform. Book a free product<br @md/> demo with a product expert today to see what primeForce can do for you.",
                                     ctaLinks: [{
                                         cta: "Contact Us",
                                         ctaLink: "/free-demo"
@@ -451,7 +451,7 @@
                             }
                         }
                     }
-                }, Object(head.a)("Property Management Software | AppFolio Property Management", "Grow your business with AppFolio, a property management software trusted by thousands to get organized, efficient, and profitable. Get a free demo today!")), {}, {
+                }, Object(head.a)("Property Management Software | primeForce Property Management", "Grow your business with primeForce, a property management software trusted by thousands to get organized, efficient, and profitable. Get a free demo today!")), {}, {
                     jsonld: function() {
                         return h({}, o.a.getVersion("2"))
                     },
@@ -1307,74 +1307,74 @@
                     applicationCategory: "Property Management Software",
                     availableOnDevice: "Android, iOS, Windows",
                     countriesSupported: "United States",
-                    featureList: "https://www.appfolio.com/features",
+                    featureList: "https://www.primeForce.com/features",
                     operatingSystem: "All",
                     aggregateRating: {
                         "@type": "AggregateRating",
                         reviewCount: "454",
                         ratingValue: "4.3",
-                        description: "AppFolio Property Manager is designed for property managers who want to automate, modernize, and grow their business. Whether you manage multifamily, single-family, student housing, HOA, condo, or commercial properties - or maybe you manage a mixed portfolio - our all-in-one cloud-based solution has features built specifically for you so you can streamline your workday and focus on your bottom line. Transparent Pricing. No Hidden Fees. Free Upgrades. Period. With AppFolio's cloud-based property management software you get everything you need to run a more successful business."
+                        description: "primeForce Property Manager is designed for property managers who want to automate, modernize, and grow their business. Whether you manage multifamily, single-family, student housing, HOA, condo, or commercial properties - or maybe you manage a mixed portfolio - our all-in-one cloud-based solution has features built specifically for you so you can streamline your workday and focus on your bottom line. Transparent Pricing. No Hidden Fees. Free Upgrades. Period. With primeForce's cloud-based property management software you get everything you need to run a more successful business."
                     },
-                    name: "AppFolio Property Manager",
+                    name: "primeForce Property Manager",
                     offers: [{
                         "@type": "Offer",
-                        name: "AppFolio Property Manager for Community Associations: $0.80 per unit/month.",
+                        name: "primeForce Property Manager for Community Associations: $0.80 per unit/month.",
                         price: "0.80",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager for Residential: $1.40 per unit/month.",
+                        name: "primeForce Property Manager for Residential: $1.40 per unit/month.",
                         price: "1.40",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager for Student Housing: $1.40 per unit/month.",
+                        name: "primeForce Property Manager for Student Housing: $1.40 per unit/month.",
                         price: "1.40",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager for Commercial: $1.50 per unit/month.",
+                        name: "primeForce Property Manager for Commercial: $1.50 per unit/month.",
                         price: "1.50",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: AppFolio Property Manager Plus for residential is $3.00 per unit/month.",
+                        name: "primeForce Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: primeForce Property Manager Plus for residential is $3.00 per unit/month.",
                         price: "3.00",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: AppFolio Property Manager Plus for commercial is $1.50 per unit/month.",
+                        name: "primeForce Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: primeForce Property Manager Plus for commercial is $1.50 per unit/month.",
                         price: "1.50",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: AppFolio Property Manager Plus for community associations is $0.85 per unit/month.",
+                        name: "primeForce Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: primeForce Property Manager Plus for community associations is $0.85 per unit/month.",
                         price: "0.85",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: AppFolio Property Manager Plus for student housing is $3.00 per unit/month.",
+                        name: "primeForce Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: primeForce Property Manager Plus for student housing is $3.00 per unit/month.",
                         price: "3.00",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }]
                 },
                 o = {
                     "@context": "https://schema.org",
                     "@graph": [{
                         "@type": "Organization",
-                        name: "AppFolio Property Management Software",
-                        url: "https://www.appfolio.com/",
-                        description: "AppFolio property management software is trusted by thousands to get organized, efficient, and profitable. Automate and grow your business. Get a demo today!",
-                        sameAs: ["https://www.facebook.com/appfolio/", "https://www.instagram.com/appfolio/", "https://twitter.com/appfolio"],
-                        logo: "https://www.appfolio.com/v3/img/shared/logo-appfolio.svg"
+                        name: "primeForce Property Management Software",
+                        url: "https://www.primeForce.com/",
+                        description: "primeForce property management software is trusted by thousands to get organized, efficient, and profitable. Automate and grow your business. Get a demo today!",
+                        sameAs: ["https://www.facebook.com/primeForce/", "https://www.instagram.com/primeForce/", "https://twitter.com/primeForce"],
+                        logo: "https://www.primeForce.com/v3/img/shared/logo-primeForce.svg"
                     }, function(t) {
                         for (var i = 1; i < arguments.length; i++) {
                             var source = null != arguments[i] ? arguments[i] : {};

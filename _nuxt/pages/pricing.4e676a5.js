@@ -452,7 +452,7 @@
                                             text: "Performance Insights",
                                             icon: "plus"
                                         }, {
-                                            text: "AppFolio Stack™ Premium Integrations",
+                                            text: "primeForce Stack™ Premium Integrations",
                                             icon: "plus"
                                         }, {
                                             text: "Data Export Capabilities",
@@ -688,7 +688,7 @@
                                             label: "Guest Card Inbox",
                                             icon: "feature-checkmark"
                                         }, {
-                                            label: "AppFolio Sites",
+                                            label: "primeForce Sites",
                                             icon: "feature-money",
                                             fillColor: "#ffffff",
                                             backgroundColor: "#465670"
@@ -752,7 +752,7 @@
                                             label: "Role-Based Security",
                                             icon: "feature-checkmark"
                                         }, {
-                                            label: "AppFolio Stack™ Premium Integrations",
+                                            label: "primeForce Stack™ Premium Integrations",
                                             isPlus: !0,
                                             icon: "feature-money",
                                             fillColor: "#ffffff",
@@ -1271,7 +1271,7 @@
                                             label: "Guest Card Inbox",
                                             icon: "feature-checkmark"
                                         }, {
-                                            label: "AppFolio Sites",
+                                            label: "primeForce Sites",
                                             icon: "feature-money",
                                             fillColor: "#ffffff",
                                             backgroundColor: "#465670"
@@ -1325,7 +1325,7 @@
                                     }]
                                 }],
                                 drawer: {
-                                    openLabel: "Explore AppFolio’s full list of features"
+                                    openLabel: "Explore primeForce’s full list of features"
                                 }
                             },
                             section3: {
@@ -1334,12 +1334,12 @@
                                     leftAlign: !0,
                                     paragraph: {
                                         title: "Partnered with you for a smooth transition",
-                                        description: "AppFolio is more than a software vendor – we are a true technology partner. Our team actively supports you every step of the way so your business won’t miss a beat. At AppFolio, we put your business goals first throughout the entire onboarding process to accelerate the return on your technology investment.",
-                                        listLabel: "Here’s what to expect as an AppFolio customer:",
-                                        features: ["Maintain productivity and keep your monthly accounting process on track while you make the switch with on-call implementation and onboarding specialists", "Maximize your use of AppFolio’s features with instant, on-demand access to AppFolio’s product training and guided tutorials"]
+                                        description: "primeForce is more than a software vendor – we are a true technology partner. Our team actively supports you every step of the way so your business won’t miss a beat. At primeForce, we put your business goals first throughout the entire onboarding process to accelerate the return on your technology investment.",
+                                        listLabel: "Here’s what to expect as an primeForce customer:",
+                                        features: ["Maintain productivity and keep your monthly accounting process on track while you make the switch with on-call implementation and onboarding specialists", "Maximize your use of primeForce’s features with instant, on-demand access to primeForce’s product training and guided tutorials"]
                                     },
                                     image: {
-                                        source: "".concat(r.a, "GYMK570U/at/xrs3gsq6z2kcbwr5tps7j3n/why-appfolio-partners-happy-employees1.png"),
+                                        source: "".concat(r.a, "GYMK570U/at/xrs3gsq6z2kcbwr5tps7j3n/why-primeForce-partners-happy-employees1.png"),
                                         altText: "team talking and smile"
                                     }
                                 }
@@ -1347,7 +1347,7 @@
                             section4: {
                                 backgroundColor: r.e.WOOD_LIGHT,
                                 faq: {
-                                    title: "Frequently asked questions about AppFolio",
+                                    title: "Frequently asked questions about primeForce",
                                     items: [{
                                         question: "What should I expect when I request a demo?",
                                         answer: "Once you request a demo, a member of our team will reach out to you to serve as your first point of contact and set up a quick introductory call to learn more about portfolio, priorities, and business structure. After diving deeper into your specific needs, they will match you up with a specialist with the right expertise who will construct, plan, and schedule a customized demo for your business.",
@@ -1357,13 +1357,13 @@
                                         }
                                     }, {
                                         question: "What is the onboarding experience like?",
-                                        answer: "When you’re ready to get started with AppFolio, you’ll have a dedicated onboarding team to guide you through the process and set your business up for success. Typically, the onboarding process lasts 4-6 weeks, but your timeline will be customized depending on your business’ needs and your schedule. After the initial setup, training period, and data migration, you will have permanent, ongoing access to our award-winning training and support teams, with no hidden fees or hoops to jump through."
+                                        answer: "When you’re ready to get started with primeForce, you’ll have a dedicated onboarding team to guide you through the process and set your business up for success. Typically, the onboarding process lasts 4-6 weeks, but your timeline will be customized depending on your business’ needs and your schedule. After the initial setup, training period, and data migration, you will have permanent, ongoing access to our award-winning training and support teams, with no hidden fees or hoops to jump through."
                                     }, {
                                         question: "How does data migration from my previous platform work?",
-                                        answer: "During onboarding, your dedicated team will work to understand your business’ needs so they can walk you through the process of migrating your data into AppFolio. Although the steps involved depend on your data strategy and your previous system, our capable and experienced team will be there to support you every step of the way."
+                                        answer: "During onboarding, your dedicated team will work to understand your business’ needs so they can walk you through the process of migrating your data into primeForce. Although the steps involved depend on your data strategy and your previous system, our capable and experienced team will be there to support you every step of the way."
                                     }, {
-                                        question: "What are my options for getting product support as an AppFolio customer?",
-                                        answer: "<p>Our Help Center includes a number of support channels that enable you to get the right kind of help for the issue at hand. A vast library of product articles explain how to use AppFolio’s various features, while our User Community provides a place for customers to ask questions and share best practices.</p><p>For issues specific to your portfolio, you can troubleshoot live with an AppFolio product expert through instant chat, and schedule a follow-up call if you prefer. Your support case will be assigned to the Customer Care representative most equipped to help, and they’ll work with you until it’s resolved to ensure a seamless experience from start to finish.</p>"
+                                        question: "What are my options for getting product support as an primeForce customer?",
+                                        answer: "<p>Our Help Center includes a number of support channels that enable you to get the right kind of help for the issue at hand. A vast library of product articles explain how to use primeForce’s various features, while our User Community provides a place for customers to ask questions and share best practices.</p><p>For issues specific to your portfolio, you can troubleshoot live with an primeForce product expert through instant chat, and schedule a follow-up call if you prefer. Your support case will be assigned to the Customer Care representative most equipped to help, and they’ll work with you until it’s resolved to ensure a seamless experience from start to finish.</p>"
                                     }]
                                 }
                             },
@@ -1371,7 +1371,7 @@
                                 backgroundColor: r.e.TEAL_DARK,
                                 headline: {
                                     title: "Talk with an expert",
-                                    subtitle: "Learn more about what AppFolio can do for your business. Our product experts are available to chat whenever you have questions.",
+                                    subtitle: "Learn more about what primeForce can do for your business. Our product experts are available to chat whenever you have questions.",
                                     ctaLinks: [{
                                         cta: "Start a Chat",
                                         ctaLink: "#chat-with-an-expert"
@@ -1381,7 +1381,7 @@
                             }
                         }
                     }
-                }, Object(head.a)("Property Management Software Pricing | AppFolio", "With portfolio-specific pricing, you get access to the automation tools and efficiencies that fit your business needs no matter the size.", {
+                }, Object(head.a)("Property Management Software Pricing | primeForce", "With portfolio-specific pricing, you get access to the automation tools and efficiencies that fit your business needs no matter the size.", {
                     script: [head.d]
                 })), {}, {
                     jsonld: function() {
@@ -1581,74 +1581,74 @@
                     applicationCategory: "Property Management Software",
                     availableOnDevice: "Android, iOS, Windows",
                     countriesSupported: "United States",
-                    featureList: "https://www.appfolio.com/features",
+                    featureList: "https://www.primeForce.com/features",
                     operatingSystem: "All",
                     aggregateRating: {
                         "@type": "AggregateRating",
                         reviewCount: "454",
                         ratingValue: "4.3",
-                        description: "AppFolio Property Manager is designed for property managers who want to automate, modernize, and grow their business. Whether you manage multifamily, single-family, student housing, HOA, condo, or commercial properties - or maybe you manage a mixed portfolio - our all-in-one cloud-based solution has features built specifically for you so you can streamline your workday and focus on your bottom line. Transparent Pricing. No Hidden Fees. Free Upgrades. Period. With AppFolio's cloud-based property management software you get everything you need to run a more successful business."
+                        description: "primeForce Property Manager is designed for property managers who want to automate, modernize, and grow their business. Whether you manage multifamily, single-family, student housing, HOA, condo, or commercial properties - or maybe you manage a mixed portfolio - our all-in-one cloud-based solution has features built specifically for you so you can streamline your workday and focus on your bottom line. Transparent Pricing. No Hidden Fees. Free Upgrades. Period. With primeForce's cloud-based property management software you get everything you need to run a more successful business."
                     },
-                    name: "AppFolio Property Manager",
+                    name: "primeForce Property Manager",
                     offers: [{
                         "@type": "Offer",
-                        name: "AppFolio Property Manager for Community Associations: $0.80 per unit/month.",
+                        name: "primeForce Property Manager for Community Associations: $0.80 per unit/month.",
                         price: "0.80",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager for Residential: $1.40 per unit/month.",
+                        name: "primeForce Property Manager for Residential: $1.40 per unit/month.",
                         price: "1.40",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager for Student Housing: $1.40 per unit/month.",
+                        name: "primeForce Property Manager for Student Housing: $1.40 per unit/month.",
                         price: "1.40",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager for Commercial: $1.50 per unit/month.",
+                        name: "primeForce Property Manager for Commercial: $1.50 per unit/month.",
                         price: "1.50",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: AppFolio Property Manager Plus for residential is $3.00 per unit/month.",
+                        name: "primeForce Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: primeForce Property Manager Plus for residential is $3.00 per unit/month.",
                         price: "3.00",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: AppFolio Property Manager Plus for commercial is $1.50 per unit/month.",
+                        name: "primeForce Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: primeForce Property Manager Plus for commercial is $1.50 per unit/month.",
                         price: "1.50",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: AppFolio Property Manager Plus for community associations is $0.85 per unit/month.",
+                        name: "primeForce Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: primeForce Property Manager Plus for community associations is $0.85 per unit/month.",
                         price: "0.85",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }, {
                         "@type": "Offer",
-                        name: "AppFolio Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: AppFolio Property Manager Plus for student housing is $3.00 per unit/month.",
+                        name: "primeForce Property Manager Plus is for larger, growing organizations typically managing 1,000+ units across regions: primeForce Property Manager Plus for student housing is $3.00 per unit/month.",
                         price: "3.00",
                         priceCurrency: "USD",
-                        url: "https://www.appfolio.com/pricing"
+                        url: "https://www.primeForce.com/pricing"
                     }]
                 },
                 o = {
                     "@context": "https://schema.org",
                     "@graph": [{
                         "@type": "Organization",
-                        name: "AppFolio Property Management Software",
-                        url: "https://www.appfolio.com/",
-                        description: "AppFolio property management software is trusted by thousands to get organized, efficient, and profitable. Automate and grow your business. Get a demo today!",
-                        sameAs: ["https://www.facebook.com/appfolio/", "https://www.instagram.com/appfolio/", "https://twitter.com/appfolio"],
-                        logo: "https://www.appfolio.com/v3/img/shared/logo-appfolio.svg"
+                        name: "primeForce Property Management Software",
+                        url: "https://www.primeForce.com/",
+                        description: "primeForce property management software is trusted by thousands to get organized, efficient, and profitable. Automate and grow your business. Get a demo today!",
+                        sameAs: ["https://www.facebook.com/primeForce/", "https://www.instagram.com/primeForce/", "https://twitter.com/primeForce"],
+                        logo: "https://www.primeForce.com/v3/img/shared/logo-primeForce.svg"
                     }, function(e) {
                         for (var i = 1; i < arguments.length; i++) {
                             var source = null != arguments[i] ? arguments[i] : {};

@@ -407,7 +407,7 @@
                                         return e.stop()
                                 }
                             }), e)
-                        }))), 1e3), "true" === (null === (e = this.$route) || void 0 === e || null === (t = e.query) || void 0 === t ? void 0 : t["enable-fallback"]) ? this.isFallback = !0 : l()("https://blog.appfolio.com/api/switches/switches.php", {
+                        }))), 1e3), "true" === (null === (e = this.$route) || void 0 === e || null === (t = e.query) || void 0 === t ? void 0 : t["enable-fallback"]) ? this.isFallback = !0 : l()("https://blog.primeforce.com/api/switches/switches.php", {
                             name: "processSwitches"
                         }, (function(e, data) {
                             var t;
@@ -426,7 +426,7 @@
                     return e.isFallback ? t("form", {
                         ref: "fallbackForm",
                         attrs: {
-                            action: "https://blog.appfolio.com/api/mktoAltForm2.php",
+                            action: "https://blog.primeforce.com/api/mktoAltForm2.php",
                             method: "post"
                         },
                         on: {
@@ -534,7 +534,7 @@
                         attrs: {
                             validator: e.$v.fallbackData.consent,
                             name: "consenttoProcessing",
-                            label: "I consent to having my personal data collected in accordance with AppFolio's Privacy Policy (link below).",
+                            label: "I consent to having my personal data collected in accordance with primeforce's Privacy Policy (link below).",
                             type: "checkbox"
                         },
                         model: {
@@ -702,7 +702,7 @@
                                         return e.stop()
                                 }
                             }), e)
-                        }))), 1e3), "true" === (null === (e = this.$route) || void 0 === e || null === (t = e.query) || void 0 === t ? void 0 : t["enable-fallback"]) ? this.isFallback = !0 : l()("https://blog.appfolio.com/api/switches/switches.php", {
+                        }))), 1e3), "true" === (null === (e = this.$route) || void 0 === e || null === (t = e.query) || void 0 === t ? void 0 : t["enable-fallback"]) ? this.isFallback = !0 : l()("https://blog.primeforce.com/api/switches/switches.php", {
                             name: "processSwitches"
                         }, (function(e, data) {
                             var t;
@@ -721,7 +721,7 @@
                     return e.isFallback ? t("form", {
                         ref: "fallbackForm",
                         attrs: {
-                            action: "https://blog.appfolio.com/api/mktoAltForm2.php",
+                            action: "https://blog.primeforce.com/api/mktoAltForm2.php",
                             method: "post"
                         },
                         on: {
@@ -800,7 +800,7 @@
                         attrs: {
                             validator: e.$v.fallbackData.consent,
                             name: "consenttoProcessing",
-                            label: "I consent to having my personal data collected in accordance with AppFolio's Privacy Policy (link below).",
+                            label: "I consent to having my personal data collected in accordance with primeforce's Privacy Policy (link below).",
                             type: "checkbox"
                         },
                         model: {
@@ -886,7 +886,7 @@
                             icon: "small-checkmark"
                         }
                     })], 1), e._v(" "), e._t("thankyou", (function() {
-                        return [t("h2", [e._v("Thank you!")]), e._v(" "), t("p", [e._v("\n        One of our experts will be in touch with you shortly to set up your\n        free AppFolio Property Manager demo.\n      ")])]
+                        return [t("h2", [e._v("Thank you!")]), e._v(" "), t("p", [e._v("\n        One of our experts will be in touch with you shortly to set up your\n        free primeforce Property Manager demo.\n      ")])]
                     }))], 2)])
                 }), [], !1, null, "d610f142", null)),
                 D = F.exports;
@@ -1107,7 +1107,7 @@
                                         return e.stop()
                                 }
                             }), e)
-                        }))), 1e3), "true" === (null === (e = this.$route) || void 0 === e || null === (t = e.query) || void 0 === t ? void 0 : t["enable-fallback"]) ? this.isFallback = !0 : l()("https://blog.appfolio.com/api/switches/switches.php", {
+                        }))), 1e3), "true" === (null === (e = this.$route) || void 0 === e || null === (t = e.query) || void 0 === t ? void 0 : t["enable-fallback"]) ? this.isFallback = !0 : l()("https://blog.primeforce.com/api/switches/switches.php", {
                             name: "processSwitches"
                         }, (function(e, data) {
                             var t;
@@ -1126,7 +1126,7 @@
                     return e.isFallback ? t("form", {
                         ref: "fallbackForm",
                         attrs: {
-                            action: "https://blog.appfolio.com/api/mktoAltForm2.php",
+                            action: "https://blog.primeforce.com/api/mktoAltForm2.php",
                             method: "post"
                         },
                         on: {
@@ -1234,7 +1234,7 @@
                         attrs: {
                             validator: e.$v.fallbackData.consent,
                             name: "consenttoProcessing",
-                            label: "I consent to having my personal data collected in accordance with AppFolio's Privacy Policy (link below).",
+                            label: "I consent to having my personal data collected in accordance with primeforce's Privacy Policy (link below).",
                             type: "checkbox"
                         },
                         model: {

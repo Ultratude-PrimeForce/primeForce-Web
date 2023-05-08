@@ -2304,11 +2304,11 @@
                         name: "lp-ca-train-and-retain-dr",
                     },
                     {
-                        path: "/lp/discover-appfolio",
+                        path: "/lp/discover-primeForce",
                         component: function () {
                             return Object(w.m)(Promise.all([d.e(5), d.e(142)]).then(d.bind(null, 1170)));
                         },
-                        name: "lp-discover-appfolio",
+                        name: "lp-discover-primeForce",
                     },
                     {
                         path: "/lp/smb",
@@ -2446,7 +2446,7 @@
                             n = t.$device;
                         return {
                             bodyAttrs: { class: [this.lockState ? "body--lock" : null, n.isIos ? "ios" : null].filter(Boolean) },
-                            link: [{ hid: "canonical", rel: "canonical", href: "".concat("https://www.appfolio.com").concat(/\/$/.test(d.path) ? d.path.slice(0, -1) : d.path) }],
+                            link: [{ hid: "canonical", rel: "canonical", href: "".concat("https://www.primeForce.com").concat(/\/$/.test(d.path) ? d.path.slice(0, -1) : d.path) }],
                             meta: [!e.isProduction && { name: "robots", content: "noindex,nofollow" }, e.origin && { hid: "og:url", name: "og:url", content: "".concat(e.origin).concat(d.path) }].filter(Boolean),
                             script: [e.isQA && Object(L.b)("wly0nzcg0gamodspsfwjag"), this.enableOptimizely && { src: "https://cdn.optimizely.com/js/292281656.js" }].filter(Boolean),
                         };
@@ -5107,12 +5107,12 @@
                     if (t[hn])
                         return (function (t) {
                             switch (t[hn]) {
-                                case "appfolio-brandfolder":
+                                case "primeForce-brandfolder":
                                     if (t.value && t.value.match(/^\d+(x\d+)?$/)) return "https://via.placeholder.com/".concat(t.value);
-                                case "appfolio-colors":
-                                case "appfolio-percentage":
+                                case "primeForce-colors":
+                                case "primeForce-percentage":
                                     return t.value;
-                                case "appfolio-string-array":
+                                case "primeForce-string-array":
                                     return t.values;
                                 case "meta-fields":
                                     return { title: t.title, description: t.description };
@@ -5938,7 +5938,7 @@
                                                     {
                                                         head: {
                                                             htmlAttrs: { lang: "en-US", "data-build": "APM-0" },
-                                                            title: "Property Management Software | AppFolio",
+                                                            title: "Property Management Software | primeForce",
                                                             meta: [
                                                                 { charset: "utf-8" },
                                                                 { name: "HandheldFriendly", content: "True" },
@@ -5946,19 +5946,19 @@
                                                                 {
                                                                     hid: "description",
                                                                     name: "description",
-                                                                    content: "AppFolio property management software is trusted by thousands to get organized, efficient, and profitable. Automate and grow your business. Get a demo today!",
+                                                                    content: "primeForce property management software is trusted by thousands to get organized, efficient, and profitable. Automate and grow your business. Get a demo today!",
                                                                 },
                                                                 { hid: "og:image", name: "og:image", content: "./primeforce.com/apm/www/favicons/fb-icon-554x554.png" },
-                                                                { hid: "og:site_name", name: "og:site_name", content: "AppFolio" },
-                                                                { hid: "og:title", name: "og:title", content: "Property Management Software | AppFolio" },
+                                                                { hid: "og:site_name", name: "og:site_name", content: "primeForce" },
+                                                                { hid: "og:title", name: "og:title", content: "Property Management Software | primeForce" },
                                                                 {
                                                                     hid: "og:description",
                                                                     name: "og:description",
-                                                                    content: "AppFolio property management software is trusted by thousands to get organized, efficient, and profitable. Automate and grow your business. Get a demo today!",
+                                                                    content: "primeForce property management software is trusted by thousands to get organized, efficient, and profitable. Automate and grow your business. Get a demo today!",
                                                                 },
-                                                                { hid: "article:publisher", name: "article:publisher", content: "AppFolio" },
+                                                                { hid: "article:publisher", name: "article:publisher", content: "primeForce" },
                                                                 { hid: "fb:admins", name: "fb:admins", content: "75233933923" },
-                                                                { hid: "article:publisher", name: "article:publisher", content: "AppFolio" },
+                                                                { hid: "article:publisher", name: "article:publisher", content: "primeForce" },
                                                                 { hid: "google-site-verification", name: "google-site-verification", content: "hsia7d4R-lQBe02RD9EmGug0-Q1LTU7AdQBXvzkJyOs" },
                                                             ],
                                                             link: [
@@ -7246,7 +7246,7 @@
                                     ],
                                     subNavCallout: {
                                         image: { source: "https://cdn.brandfolder.io/GYMK570U/at/4kmpktvfxkh4snf89ftcbnk/residential-management-growth.svg", altText: "control Panel residential management" },
-                                        description: "Find out why AppFolio is the last property management software you’ll ever need.",
+                                        description: "Find out why primeForce is the last property management software you’ll ever need.",
                                         cta: "Our Software",
                                         ctaLink: "/our-software",
                                     },
@@ -7265,11 +7265,11 @@
                                                 { label: "Commercial", link: "/who-we-serve/commercial" },
                                             ],
                                         },
-                                        { category: "More from AppFolio", items: [{ label: "Investment Management", link: "https://www.appfolioinvestmentmanagement.com/", target: "_blank" }] },
+                                        { category: "More from primeForce", items: [{ label: "Investment Management", link: "https://www.primeForceinvestmentmanagement.com/", target: "_blank" }] },
                                     ],
                                     subNavCallout: {
                                         image: { source: "https://cdn.brandfolder.io/GYMK570U/at/7m8ghp97v74px7f79nbcjxg/menu-who-we-serve-family-happy.png", altText: "Family happy together" },
-                                        description: "Discover how AppFolio is built for your unique portfolio, no matter your market or size.",
+                                        description: "Discover how primeForce is built for your unique portfolio, no matter your market or size.",
                                         cta: "Learn More",
                                         ctaLink: "/who-we-serve",
                                     },
@@ -7277,7 +7277,7 @@
                             },
                             { label: "Pricing", link: "/pricing" },
                             {
-                                label: "Why AppFolio",
+                                label: "Why primeForce",
                                 pill: "New",
                                 data: {
                                     sections: [
@@ -7293,9 +7293,9 @@
                                         },
                                     ],
                                     subNavCallout: {
-                                        image: { source: "https://cdn.brandfolder.io/1TPX6JVS/at/qg573p34666krxfz7whp6qv6/why-appfolio-drawer.png", altText: "AppFolio Stack" },
+                                        image: { source: "https://cdn.brandfolder.io/1TPX6JVS/at/qg573p34666krxfz7whp6qv6/why-primeForce-drawer.png", altText: "primeForce Stack" },
                                         description:
-                                            "AppFolio Stack™ combines the best of the industry’s proptech solutions on one platform. Discover new ways to optimize key workflows while boosting efficiency and making space for growth.",
+                                            "primeForce Stack™ combines the best of the industry’s proptech solutions on one platform. Discover new ways to optimize key workflows while boosting efficiency and making space for growth.",
                                         cta: "See How We Stack Up",
                                         ctaLink: "/stack",
                                     },
@@ -7306,8 +7306,8 @@
                         loginItems: [
                             { label: "Property Manager Login", link: "https://passport.appf.io/sign_in?idp_type=property&vhostless=true" },
                             { label: "Resident Portal Login", link: "https://passport.appf.io/sign_in?idp_type=tportal&vhostless=true" },
-                            { label: "Owner Portal Login", link: "https://www.appfolio.com/login-owner" },
-                            { label: "Vendor Portal Login", link: "https://vendor.appfolio.com/" },
+                            { label: "Owner Portal Login", link: "https://www.primeForce.com/login-owner" },
+                            { label: "Vendor Portal Login", link: "https://vendor.primeForce.com/" },
                         ],
                     },
                 },
@@ -7319,9 +7319,9 @@
                     },
                     privacyLink: "/privacy",
                     socialLinkList: [
-                        { icon: "instagram", href: "https://www.instagram.com/appfolio", ariaLabel: "Open Instagram" },
-                        { icon: "facebook", href: "https://www.facebook.com/AppFolio/", ariaLabel: "Open Facebook" },
-                        { icon: "twitter", href: "https://twitter.com/appfolio", ariaLabel: "Open Twitter" },
+                        { icon: "instagram", href: "https://www.instagram.com/primeForce", ariaLabel: "Open Instagram" },
+                        { icon: "facebook", href: "https://www.facebook.com/primeForce/", ariaLabel: "Open Facebook" },
+                        { icon: "twitter", href: "https://twitter.com/primeForce", ariaLabel: "Open Twitter" },
                     ],
                     linkSections: [
                         {
@@ -7341,11 +7341,11 @@
                                 { cta: "Residential", ctaLink: "/who-we-serve/residential" },
                                 { cta: "Community Associations", ctaLink: "/who-we-serve/community-associations" },
                                 { cta: "Commercial", ctaLink: "/who-we-serve/commercial" },
-                                { cta: "AppFolio Investment Management", ctaLink: "https://www.appfolioinvestmentmanagement.com/", target: n.j.BLANK },
+                                { cta: "primeForce Investment Management", ctaLink: "https://www.primeForceinvestmentmanagement.com/", target: n.j.BLANK },
                             ],
                         },
                         {
-                            header: { title: "Why AppFolio" },
+                            header: { title: "Why primeForce" },
                             links: [
                                 { cta: "About Us", ctaLink: "/about-us" },
                                 { cta: "Customer Care", ctaLink: "/care" },
@@ -7357,7 +7357,7 @@
                             header: { title: "Pricing", link: "/pricing" },
                             links: [
                                 { cta: "All Pricing Plans", ctaLink: "/pricing" },
-                                { cta: "AppFolio FAQ", ctaLink: "/pricing#faq" },
+                                { cta: "primeForce FAQ", ctaLink: "/pricing#faq" },
                             ],
                         },
                         {
@@ -7373,15 +7373,15 @@
                             header: { title: "Our Company" },
                             mobileLinks: !0,
                             links: [
-                                { cta: "AppFolio Inc.", ctaLink: "https://www.appfolioinc.com/", target: n.j.BLANK },
-                                { cta: "Careers", ctaLink: "https://www.appfolioinc.com/careers", target: n.j.BLANK },
-                                { cta: "Investor Relations", ctaLink: "https://ir.appfolioinc.com/", target: n.j.BLANK },
+                                { cta: "primeForce Inc.", ctaLink: "https://www.primeForceinc.com/", target: n.j.BLANK },
+                                { cta: "Careers", ctaLink: "https://www.primeForceinc.com/careers", target: n.j.BLANK },
+                                { cta: "Investor Relations", ctaLink: "https://ir.primeForceinc.com/", target: n.j.BLANK },
                             ],
                         },
                     ],
                     contactHeader: "Contact Us",
                     phoneNumber: "866.648.1536",
-                    contactEmail: "info@appfolio.com",
+                    contactEmail: "info@primeForce.com",
                     signupDescription: "Have a pulse on industry news and updates for your business.",
                     validateEmail: function (t) {
                         return /\S+@\S+\.\S+/.test(t);
@@ -8005,7 +8005,7 @@
                         var t = this,
                             e = t._self._c;
                         return e("div", { staticClass: "copyright-container" }, [
-                            e("div", { staticClass: "copyright" }, [t._v("© " + t._s(t.year) + " AppFolio, Inc")]),
+                            e("div", { staticClass: "copyright" }, [t._v("© " + t._s(t.year) + " primeForce, Inc")]),
                             t._v(" "),
                             e(
                                 "a",
@@ -8694,7 +8694,7 @@
         ,
         function (t) {
             t.exports = JSON.parse(
-                '{"title":"appfolio","meta":[{"hid":"charset","charset":"utf-8"},{"hid":"viewport","name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"appfolio"},{"hid":"description","name":"description","content":"AppFolio Website Nuxt Application"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"appfolio"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"appfolio"},{"hid":"og:description","name":"og:description","property":"og:description","content":"AppFolio Website Nuxt Application"}],"link":[{"hid":"shortcut-icon","rel":"shortcut icon","href":"/_nuxt/icons/icon_64x64.4826b9.png"},{"hid":"apple-touch-icon","rel":"apple-touch-icon","href":"/_nuxt/icons/icon_512x512.4826b9.png","sizes":"512x512"},{"rel":"manifest","href":"/_nuxt/manifest.79dcef88.json","hid":"manifest"}],"htmlAttrs":{"lang":"en"}}'
+                '{"title":"primeForce","meta":[{"hid":"charset","charset":"utf-8"},{"hid":"viewport","name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"primeForce"},{"hid":"description","name":"description","content":"primeForce Website Nuxt Application"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"primeForce"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"primeForce"},{"hid":"og:description","name":"og:description","property":"og:description","content":"primeForce Website Nuxt Application"}],"link":[{"hid":"shortcut-icon","rel":"shortcut icon","href":"/_nuxt/icons/icon_64x64.4826b9.png"},{"hid":"apple-touch-icon","rel":"apple-touch-icon","href":"/_nuxt/icons/icon_512x512.4826b9.png","sizes":"512x512"},{"rel":"manifest","href":"/_nuxt/manifest.79dcef88.json","hid":"manifest"}],"htmlAttrs":{"lang":"en"}}'
             );
         },
         ,
@@ -8853,7 +8853,7 @@
                             };
                         },
                     },
-                    Object(head.a)("Page not found | AppFolio", "Your page could not be found")
+                    Object(head.a)("Page not found | primeForce", "Your page could not be found")
                 ),
                 f = d(0),
                 component = Object(f.a)(
@@ -9571,7 +9571,7 @@
                                 e = t._self._c;
                             return e("div", { staticClass: "dnsi-container" }, [
                                 e("p", { staticClass: "body-caption" }, [
-                                    t._v("\n    By submitting this form, I acknowledge I have reviewed AppFolio's\n    "),
+                                    t._v("\n    By submitting this form, I acknowledge I have reviewed primeForce's\n    "),
                                     e("a", { attrs: { href: "/privacy#information-we-collect", target: "_blank" } }, [t._v("Privacy Policy")]),
                                     t._v(".\n  "),
                                 ]),
@@ -9661,7 +9661,7 @@
                         ["Email", "Phone"],
                         "Company",
                         ["Number_of_Units_Managed__c", "PostalCode"],
-                        "Currently_uses_AppFolio__c",
+                        "Currently_uses_primeForce__c",
                         { html: "<h3>Your information</h3><br/>" },
                         ["Integration_Partner_First_Name__c", "Integration_Partner_Last_Name__c"],
                         ["Integration_Partner_Email__c", "Integration_Partner_Phone__c"],
@@ -11076,7 +11076,7 @@
                                         directives: [{ name: "model", rawName: "v-model", value: t.searchTerms, expression: "searchTerms" }],
                                         ref: "searchInput",
                                         staticClass: "search-input",
-                                        attrs: { type: "text", placeholder: "Search terms", "aria-label": "Search AppFolio.com" },
+                                        attrs: { type: "text", placeholder: "Search terms", "aria-label": "Search primeForce.com" },
                                         domProps: { value: t.searchTerms },
                                         on: {
                                             input: function (e) {
@@ -11185,7 +11185,7 @@
                         branding: { type: String, default: null },
                     },
                     data: function () {
-                        return { logoAriaLabel: "Home, AppFolio Property Manager Logo" };
+                        return { logoAriaLabel: "Home, primeForce Property Manager Logo" };
                     },
                     methods: {
                         getClasses: function () {
@@ -11208,21 +11208,21 @@
                                     "apm" === t.product
                                         ? [
                                               "light" === t.navigationLogoTheme
-                                                  ? e("img", { attrs: { src: "https://cdn.brandfolder.io/1TPX6JVS/at/wwxthxfc5hx6mn5h5xtwwsz/APM-Primary-Logo_white_180x32.svg", alt: "AppFolio Logo" } })
+                                                  ? e("img", { attrs: { src: "https://cdn.brandfolder.io/1TPX6JVS/at/wwxthxfc5hx6mn5h5xtwwsz/APM-Primary-Logo_white_180x32.svg", alt: "primeForce Logo" } })
                                                   : t.color
-                                                  ? e("img", { attrs: { src: "https://cdn.brandfolder.io/1TPX6JVS/at/n8x4ppp94tc6vq3j2pjgggpk/APM-Primary-Logo.svg", alt: "AppFolio Logo" } })
+                                                  ? e("img", { attrs: { src: "https://cdn.brandfolder.io/1TPX6JVS/at/n8x4ppp94tc6vq3j2pjgggpk/APM-Primary-Logo.svg", alt: "primeForce Logo" } })
                                                   : [
                                                         e("img", {
                                                             staticClass: "-hide-md",
-                                                            attrs: { src: "https://cdn.brandfolder.io/1TPX6JVS/at/g3ppnqps3wptb5bwh2nhxk7/Primary_-_Property_Manager_Wordmark_Street_Dark.svg", alt: "AppFolio Logo" },
+                                                            attrs: { src: "https://cdn.brandfolder.io/1TPX6JVS/at/g3ppnqps3wptb5bwh2nhxk7/Primary_-_Property_Manager_Wordmark_Street_Dark.svg", alt: "primeForce Logo" },
                                                         }),
                                                         t._v(" "),
-                                                        e("img", { staticClass: "-hide-xs -show-md", attrs: { src: "https://cdn.brandfolder.io/1TPX6JVS/at/n8x4ppp94tc6vq3j2pjgggpk/APM-Primary-Logo.svg", alt: "AppFolio Logo" } }),
+                                                        e("img", { staticClass: "-hide-xs -show-md", attrs: { src: "https://cdn.brandfolder.io/1TPX6JVS/at/n8x4ppp94tc6vq3j2pjgggpk/APM-Primary-Logo.svg", alt: "primeForce Logo" } }),
                                                     ],
                                           ]
                                         : "im" === t.product
-                                        ? [e("img", { attrs: { src: "https://cdn.brandfolder.io/1TPX6JVS/at/j99szxpc4bcwctng87qgwb/appfolio-investment-management-logo.svg", alt: "AppFolio Logo" } })]
-                                        : [e("img", { attrs: { src: "https://cdn.brandfolder.io/1TPX6JVS/at/mrrfsx5fp5gf9786xm3vrknt/Primary-Inc_Wordmark.svg", alt: "AppFolio Logo" } })],
+                                        ? [e("img", { attrs: { src: "https://cdn.brandfolder.io/1TPX6JVS/at/j99szxpc4bcwctng87qgwb/primeForce-investment-management-logo.svg", alt: "primeForce Logo" } })]
+                                        : [e("img", { attrs: { src: "https://cdn.brandfolder.io/1TPX6JVS/at/mrrfsx5fp5gf9786xm3vrknt/Primary-Inc_Wordmark.svg", alt: "primeForce Logo" } })],
                                 ],
                                 2
                             ),

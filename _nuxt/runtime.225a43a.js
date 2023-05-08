@@ -184,7 +184,7 @@
                         139: "pages/homepage",
                         140: "pages/instrument",
                         141: "pages/lp/ca-train-and-retain-dr",
-                        142: "pages/lp/discover-appfolio",
+                        142: "pages/lp/discover-primeForce",
                         143: "pages/lp/smb",
                         144: "pages/on-demand-events",
                         145: "pages/our-software/index",

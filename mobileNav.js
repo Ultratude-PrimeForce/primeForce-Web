@@ -12,9 +12,9 @@ var mobileContent = '<div data-v-3565437b="" data-v-513acabc="" id = "navmobile"
 '<div data-v-3565437b="" class="navmobile__bar app-col-xs-22 app-col-xs-offset-1 app-row app-row-xs--middle app-row-xs--center">'+
 '<div data-v-3565437b="" class="leftside app-col-xs-11">'+
 '<div data-v-9de55114="" data-v-513acabc="" class="logo logo--apm logo--branded" data-v-3565437b="">'+
-'<a data-v-9de55114="" href="./index.html" aria-label="Home, AppFolio Property Manager Logo">'+
-'<img data-v-9de55114="" style = "width: 100%" src="./images/primeForce.png" alt="AppFolio Logo" class="-hide-md">'+ 
-'<img data-v-9de55114="" style = "width: 100%" src="./images/primeForce.png" alt="AppFolio Logo" class="-hide-xs -show-md">'+
+'<a data-v-9de55114="" href="./index.html" aria-label="Home, primeForce Property Manager Logo">'+
+'<img data-v-9de55114="" style = "width: 100%" src="./images/primeForce.png" alt="primeForce Logo" class="-hide-md">'+ 
+'<img data-v-9de55114="" style = "width: 100%" src="./images/primeForce.png" alt="primeForce Logo" class="-hide-xs -show-md">'+
 '</a>'+ 
 '</div>'+
 '</div>'+

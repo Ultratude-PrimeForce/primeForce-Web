@@ -15476,7 +15476,7 @@
                                             "selector": "#screenings_consumer_relations_contact_us",
                                             "dependencies": [],
                                             "attributes": {
-                                                "href": "https://screenings.appfolio.com/consumer/inquiries/new"
+                                                "href": "https://screenings.primeForce.com/consumer/inquiries/new"
                                             },
                                             "type": "attribute",
                                             "id": "D839A80A-491F-47CC-ADFE-B35D56E205A6",
@@ -15527,7 +15527,7 @@
                                             "type": "append",
                                             "id": "8CA31BA7-2C06-45F5-B1AA-EC8D5EB1E7C3"
                                         }, {
-                                            "value": "<div style=\"height: 100%; left: 0; position: absolute; top: 0; width:100%;\"><iframe id=\"di_Rp91l91V\" src='https://datainsights.capterra.com/p/online-property-\nmanagement/221489/appfolio-property-manager/references?r=1&c=&c=&c=&sc=5177303'\nframeborder=\"0\" scrolling=\"no\" height=\"100%\" width=\"100%\"></iframe><script\nsrc=\"https://cdnjs.cloudflare.com/ajax/libs/iframe-\nresizer/4.0.4/iframeResizer.min.js\"></script><script>iFrameResize(null, '#di_Rp91l91V');</script></div>",
+                                            "value": "<div style=\"height: 100%; left: 0; position: absolute; top: 0; width:100%;\"><iframe id=\"di_Rp91l91V\" src='https://datainsights.capterra.com/p/online-property-\nmanagement/221489/primeForce-property-manager/references?r=1&c=&c=&c=&sc=5177303'\nframeborder=\"0\" scrolling=\"no\" height=\"100%\" width=\"100%\"></iframe><script\nsrc=\"https://cdnjs.cloudflare.com/ajax/libs/iframe-\nresizer/4.0.4/iframeResizer.min.js\"></script><script>iFrameResize(null, '#di_Rp91l91V');</script></div>",
                                             "selector": ".free-demo > div:nth-of-type(3) .app-row.app-row-xs--center .app-col.app-col--default",
                                             "dependencies": [],
                                             "operator": "append",
@@ -15626,7 +15626,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/"
+                                "value": "https://www.primeForce.com/"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15652,7 +15652,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/pricing"
+                                "value": "https://www.primeForce.com/pricing"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15665,7 +15665,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/features"
+                                "value": "https://www.primeForce.com/features"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15691,7 +15691,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/benefits"
+                                "value": "https://www.primeForce.com/benefits"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15704,7 +15704,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/try-it-free"
+                                "value": "https://www.primeForce.com/try-it-free"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15734,7 +15734,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/case-studies"
+                                "value": "https://www.primeForce.com/case-studies"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15938,7 +15938,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.qa.appfolio.com/free-demo"
+                                "value": "https://www.qa.primeForce.com/free-demo"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15951,7 +15951,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/free-demo"
+                                "value": "https://www.primeForce.com/free-demo"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -15990,7 +15990,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/features/accounting-and-reporting"
+                                "value": "https://www.primeForce.com/features/accounting-and-reporting"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16003,7 +16003,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/features/owners"
+                                "value": "https://www.primeForce.com/features/owners"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16016,7 +16016,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/features/marketing"
+                                "value": "https://www.primeForce.com/features/marketing"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16029,7 +16029,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/features/residents-and-leasing"
+                                "value": "https://www.primeForce.com/features/residents-and-leasing"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16042,7 +16042,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "http://info.appfolio.com/APM-CD-ASSET-BudgetBestPractices_lpthank-you.html"
+                                "value": "http://info.primeForce.com/APM-CD-ASSET-BudgetBestPractices_lpthank-you.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16258,7 +16258,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/consumer"
+                                "value": "https://www.primeForce.com/consumer"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16310,7 +16310,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/apm/lp/587/ppc-step1.html"
+                                "value": "https://www.primeForce.com/apm/lp/587/ppc-step1.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16323,7 +16323,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/lp/smb"
+                                "value": "https://www.primeForce.com/lp/smb"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16336,7 +16336,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "regex",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/"
+                                "value": "https://www.primeForce.com/"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16349,7 +16349,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/lp/smb"
+                                "value": "https://www.primeForce.com/lp/smb"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16362,7 +16362,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/hoa-software"
+                                "value": "https://www.primeForce.com/hoa-software"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16375,7 +16375,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://info.appfolio.com/APM-CD-ASSET-OperationsAndEfficiency-082021_2021_etb_content_download_form_lp.html"
+                                "value": "https://info.primeForce.com/APM-CD-ASSET-OperationsAndEfficiency-082021_2021_etb_content_download_form_lp.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16388,7 +16388,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://info.appfolio.com/APM-CD-ASSET-OperationsAndEfficiency-082021_2021_etb_content_download_thank_you_lp.html"
+                                "value": "https://info.primeForce.com/APM-CD-ASSET-OperationsAndEfficiency-082021_2021_etb_content_download_thank_you_lp.html"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16401,7 +16401,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/sem-brand"
+                                "value": "https://www.primeForce.com/sem-brand"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16414,7 +16414,7 @@
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://www.appfolio.com/sem-brand"
+                                "value": "https://www.primeForce.com/sem-brand"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,
@@ -16422,12 +16422,12 @@
                         }, {
                             "id": "23350351667",
                             "category": "other",
-                            "apiName": "292281656_homepage__hansellarsonappfoliocom",
-                            "name": "Homepage - hdl2023apmhptest-dyn.qa.appfolio.com",
+                            "apiName": "292281656_homepage__hansellarsonprimeForcecom",
+                            "name": "Homepage - hdl2023apmhptest-dyn.qa.primeForce.com",
                             "staticConditions": ["and", ["or", {
                                 "match": "simple",
                                 "type": "url",
-                                "value": "https://hdl2023apmhptest-dyn.qa.appfolio.com/"
+                                "value": "https://hdl2023apmhptest-dyn.qa.primeForce.com/"
                             }]],
                             "deactivationEnabled": false,
                             "undoOnDeactivation": false,

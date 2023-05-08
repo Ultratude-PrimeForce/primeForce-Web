@@ -5,7 +5,7 @@ const options = {
         "debug": false
     },
     "cacheOptions": {
-        "cacheId": "appfolio-prod",
+        "cacheId": "primeForce-prod",
         "directoryIndex": "./index.html",
         "revision": "WTiD8tDQKFO0"
     },

@@ -32522,9 +32522,9 @@ span.nowrap[data-v-67e96480] {
     width: 100%
 }
 
-.section-container.hero[data-v-67e96480] {
-    /* padding-top: 6.25rem */
-}
+/* .section-container.hero[data-v-67e96480] {
+    padding-top: 6.25rem
+} */
 
 @media(max-width: 768px) {
     .section-container.hero[data-v-67e96480] {
