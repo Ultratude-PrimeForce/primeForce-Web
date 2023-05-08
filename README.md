@@ -13,7 +13,6 @@ primeForce is a property management solution that automates repetitive tasks and
 - HTML
 - CSS
 - JavaScript
-- Docker
 
 ## About Us
 
