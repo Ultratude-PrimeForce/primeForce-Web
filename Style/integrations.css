@@ -78680,7 +78680,6 @@ span.nowrap[data-v-67de5fba] {
 }
 
 .navmobilelink__label[data-v-30fd8976] {
-text-decoration: none !important;color: #000 !important;
     font-family: "HelveticaNowDisplayBold", helvetica, sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
@@ -78694,18 +78693,15 @@ text-decoration: none !important;color: #000 !important;
 
 @media(min-width: 768px) {
     .navmobilelink__label[data-v-30fd8976] {
-text-decoration: none !important;color: #000 !important;
         font-size: 2rem
     }
 }
 
 .navmobilelink__icon+.navmobilelink__label[data-v-30fd8976] {
-text-decoration: none !important;color: #000 !important;
     margin-left: 11px
 }
 
 .navmobilelink--sub .navmobilelink__label[data-v-30fd8976] {
-text-decoration: none !important;color: #000 !important;
     font-family: "HelveticaNowText", helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 400;
