@@ -35761,12 +35761,13 @@
             }
             .fine-print[data-v-4579b5b0] {
                 font-family: "HelveticaNowText", helvetica, sans-serif;
-                font-size: 0.75rem;
+                font-size: 1rem;
                 font-weight: 400;
                 letter-spacing: 0;
                 line-height: 130%;
                 margin-left: 0;
                 margin-right: 0;
+                color: green;
             }
             @media (min-width: 768px) {
                 .fine-print[data-v-4579b5b0] {
@@ -35787,7 +35788,7 @@
                 flex-shrink: 0;
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: space-evenly;
                 width: 1.6875rem;
                 height: 1.6875rem;
                 color: #c9ced6;
@@ -59507,3 +59508,28 @@
                 padding: 20px 0;
                 position: relative;
             }
+
+        .plus[data-v-4579b5b0] span {
+            display: none;
+            padding: 2px;
+            transition: .25s ease-in-out
+        }
+
+        .feature-item:hover {
+            cursor: pointer;
+        }
+
+        .feature-item:hover .plus[data-v-4579b5b0] {
+            background: #d39f57;
+            width: 50%;
+            border-radius: 25px;
+            transition: .25s ease-in-out;
+        }
+
+        .feature-item:hover span.detail {
+            display: block;
+            padding: 5px;
+            transition: .1s ease-in-out;
+            color: #fff;
+            font-size: 14px;
+        }
